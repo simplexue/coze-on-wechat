@@ -646,3 +646,200 @@ requests.exceptions.ProxyError: HTTPSConnectionPool(host='wx2.qq.com', port=443)
 为你搜索到短剧信息如下：
 🎬 短剧名称：13111-玄学大佬她直播惊艳全球（47集）马铭婕
 📁 短剧链接：https://pan.quark.cn/s/8313e05fc3a8), receiver=@@0ab640aff7677190e8e759e59df1e53e5433dff06b16da3cb307af15c3eec707
+[ERROR][2024-10-27 19:06:36][app.py:66] - App startup failed!
+[ERROR][2024-10-27 19:06:36][app.py:67] - key plugins not in available_setting
+Traceback (most recent call last):
+  File "E:\code\cozewechat\chatgpt-on-wechat\app.py", line 46, in run
+    load_config()
+  File "E:\code\cozewechat\chatgpt-on-wechat\config.py", line 280, in load_config
+    config = Config(json.loads(config_str))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\cozewechat\chatgpt-on-wechat\config.py", line 194, in __init__
+    self[k] = v
+    ~~~~^^^
+  File "E:\code\cozewechat\chatgpt-on-wechat\config.py", line 205, in __setitem__
+    raise Exception("key {} not in available_setting".format(key))
+Exception: key plugins not in available_setting
+[INFO][2024-10-27 19:13:16][config.py:302] - [INIT] load config: {'channel_type': 'wx', 'model': 'coze', 'coze_api_base': 'https://api.coze.cn/open_api/v2', 'coze_api_key': 'pat*****hv8', 'coze_bot_id': '7430389582765555750', 'text_to_image': 'dall-e-2', 'voice_to_text': 'openai', 'text_to_voice': 'openai', 'proxy': '', 'hot_reload': False, 'single_chat_prefix': [], 'single_chat_reply_prefix': '[bot] ', 'group_chat_prefix': ['搜'], 'group_name_white_list': ['A7❤️进群看群公告', '诗词配音素材群', 'A6❤️短剧看群公告'], 'image_create_prefix': ['画'], 'speech_recognition': True, 'group_speech_recognition': False, 'voice_reply_voice': False, 'conversation_max_tokens': 2500, 'expires_in_seconds': 3600, 'character_desc': '你是基于大语言模型的AI智能助手，旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。', 'temperature': 0.7, 'subscribe_msg': '感谢您的关注！\n这里是AI智能助手，可以自由对话。\n支持语音对话。\n支持图片输入。\n支持图片输出，画字开头的消息将按要求创作图片。\n支持tool、角色扮演和文字冒险等丰富的插件。\n输入{trigger_prefix}#help 查看详细指令。', 'use_linkai': False, 'linkai_api_key': '*****', 'linkai_app_code': '', 'group_welcome_msg': '欢迎新朋友入群\n免费搜剧格式为：\n\n搜xxx（xxx为剧名）\n剧名前面加个搜字'}
+[INFO][2024-10-27 19:13:16][config.py:226] - [Config] User datas loaded.
+[INFO][2024-10-27 19:13:16][plugin_manager.py:50] - Loading plugins config...
+[INFO][2024-10-27 19:13:16][plugin_manager.py:88] - Scaning plugins ...
+[INFO][2024-10-27 19:13:16][plugin_manager.py:41] - Plugin Banwords_v1.0 registered, path=./plugins\banwords
+[INFO][2024-10-27 19:13:16][plugin_manager.py:41] - Plugin BDunit_v0.1 registered, path=./plugins\bdunit
+[INFO][2024-10-27 19:13:16][plugin_manager.py:41] - Plugin Dungeon_v1.0 registered, path=./plugins\dungeon
+[INFO][2024-10-27 19:13:16][plugin_manager.py:41] - Plugin Finish_v1.0 registered, path=./plugins\finish
+[INFO][2024-10-27 19:13:16][plugin_manager.py:41] - Plugin Godcmd_v1.0 registered, path=./plugins\godcmd
+[INFO][2024-10-27 19:13:16][plugin_manager.py:41] - Plugin Hello_v0.1 registered, path=./plugins\hello
+[INFO][2024-10-27 19:13:16][plugin_manager.py:41] - Plugin Keyword_v0.1 registered, path=./plugins\keyword
+[INFO][2024-10-27 19:13:16][plugin_manager.py:41] - Plugin linkai_v0.1.0 registered, path=./plugins\linkai
+[INFO][2024-10-27 19:13:16][plugin_manager.py:41] - Plugin Role_v1.0 registered, path=./plugins\role
+[WARNING][2024-10-27 19:13:16][plugin_manager.py:113] - Failed to import plugin tool: No module named 'chatgpt_tool_hub'
+[INFO][2024-10-27 19:13:16][godcmd.py:194] - [Godcmd] 因未设置口令，本次的临时口令为8167。
+[INFO][2024-10-27 19:13:16][godcmd.py:210] - [Godcmd] inited
+[INFO][2024-10-27 19:13:16][keyword.py:40] - [keyword] {}
+[INFO][2024-10-27 19:13:16][keyword.py:42] - [keyword] inited.
+[INFO][2024-10-27 19:13:16][linkai.py:35] - [LinkAI] inited, config={'group_app_map': {'测试群名1': 'default', '测试群名2': 'Kv2fXJcH'}, 'midjourney': {'enabled': False, 'auto_translate': True, 'img_proxy': True, 'max_tasks': 3, 'max_tasks_per_user': 1, 'use_image_create_prefix': True}, 'summary': {'enabled': False, 'group_enabled': True, 'max_file_size': 5000, 'type': ['FILE', 'SHARING']}}
+[INFO][2024-10-27 19:13:16][role.py:69] - [Role] inited
+[INFO][2024-10-27 19:13:16][dungeon.py:56] - [Dungeon] inited
+[INFO][2024-10-27 19:13:16][hello.py:40] - [Hello] inited
+[INFO][2024-10-27 19:13:16][finish.py:23] - [Finish] inited
+[INFO][2024-10-27 19:16:04][wechat_channel.py:131] - Wechat login success, user_id: @4b9d263ad237ab5bfa0aff46b925d94e2c30aa89ff71a26477810e874785403a, nickname: bot
+[WARNING][2024-10-27 19:16:11][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 19:16:11][bridge.py:70] - create bot coze for chat
+[INFO][2024-10-27 19:16:11][bytedance_coze_bot.py:26] - [COZE] query=13111
+[WARNING][2024-10-27 19:16:11][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[ERROR][2024-10-27 19:16:26][chat_channel.py:291] - [chat_channel] sendMsg error: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsendmsg (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+[ERROR][2024-10-27 19:16:26][chat_channel.py:294] - HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsendmsg (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 537, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 466, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1395, in getresponse
+    response.begin()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 325, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 294, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+The above exception was the direct cause of the following exception:
+
+urllib3.exceptions.ProxyError: ('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsendmsg (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\code\cozewechat\chatgpt-on-wechat\channel\chat_channel.py", line 289, in _send
+    self.send(reply, context)
+  File "E:\code\cozewechat\chatgpt-on-wechat\channel\wechat\wechat_channel.py", line 213, in send
+    itchat.send(reply.content, toUserName=receiver)
+  File "E:\code\cozewechat\chatgpt-on-wechat\lib\itchat\components\messages.py", line 513, in send
+    r = self.send_msg(msg, toUserName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\cozewechat\chatgpt-on-wechat\lib\itchat\components\messages.py", line 283, in send_msg
+    r = self.send_raw_msg(1, msg, toUserName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\cozewechat\chatgpt-on-wechat\lib\itchat\components\messages.py", line 277, in send_raw_msg
+    r = self.s.post(url, headers=headers,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 513, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsendmsg (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+[INFO][2024-10-27 19:16:30][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@璐璐不吃糖
+为你搜索到短剧信息如下：
+🎬 短剧名称：13111-玄学大佬她直播惊艳全球（47集）马铭婕
+📁 短剧链接：https://pan.quark.cn/s/8313e05fc3a8), receiver=@@0965ee617dd801756f3921d7adc0aa13d6afcbae6b5a06340d84e383acb34588
+[INFO][2024-10-27 19:17:53][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@A妞妞
+欢迎新朋友入群
+免费搜剧格式为：
+
+搜xxx（xxx为剧名）
+剧名前面加个搜字), receiver=@@e9e56cc2d07ec38df932714dafde1de2fcc89d55cd8dcd98c41442f8229aa85b
+[WARNING][2024-10-27 19:18:18][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 19:18:18][bytedance_coze_bot.py:26] - [COZE] query=玄学大佬
+[WARNING][2024-10-27 19:18:18][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[ERROR][2024-10-27 19:18:33][chat_channel.py:291] - [chat_channel] sendMsg error: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsendmsg (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+[ERROR][2024-10-27 19:18:33][chat_channel.py:294] - HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsendmsg (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 537, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 466, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1395, in getresponse
+    response.begin()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 325, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 294, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+The above exception was the direct cause of the following exception:
+
+urllib3.exceptions.ProxyError: ('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsendmsg (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\code\cozewechat\chatgpt-on-wechat\channel\chat_channel.py", line 289, in _send
+    self.send(reply, context)
+  File "E:\code\cozewechat\chatgpt-on-wechat\channel\wechat\wechat_channel.py", line 213, in send
+    itchat.send(reply.content, toUserName=receiver)
+  File "E:\code\cozewechat\chatgpt-on-wechat\lib\itchat\components\messages.py", line 513, in send
+    r = self.send_msg(msg, toUserName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\cozewechat\chatgpt-on-wechat\lib\itchat\components\messages.py", line 283, in send_msg
+    r = self.send_raw_msg(1, msg, toUserName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\cozewechat\chatgpt-on-wechat\lib\itchat\components\messages.py", line 277, in send_raw_msg
+    r = self.s.post(url, headers=headers,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 513, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsendmsg (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+[INFO][2024-10-27 19:18:37][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@一壶一茶🍵
+为你搜索到短剧信息如下：
+🎬 短剧名称：12800-军训求雨我玄学大佬的身份瞒不住了（51集）
+📁 短剧链接：https://pan.quark.cn/s/0c2699f2b137
+🎬 短剧名称：13111-玄学大佬她直播惊艳全球（47集）马铭婕
+📁 短剧链接：https://pan.quark.cn/s/8313e05fc3a8
+🎬 短剧名称：12497-玄学大佬惊艳全球（59集）左一
+📁 短剧链接：https://pan.quark.cn/s/da74a2db074f), receiver=@@e9e56cc2d07ec38df932714dafde1de2fcc89d55cd8dcd98c41442f8229aa85b
