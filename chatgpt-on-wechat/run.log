@@ -1,0 +1,551 @@
+[INFO][2024-10-27 16:49:44][config.py:302] - [INIT] load config: {'channel_type': 'wx', 'model': 'coze', 'coze_api_base': 'https://api.coze.cn/open_api/v2', 'coze_api_key': 'pat*****hv8', 'coze_bot_id': '7430312631141318675', 'text_to_image': 'dall-e-2', 'voice_to_text': 'openai', 'text_to_voice': 'openai', 'proxy': '', 'hot_reload': False, 'single_chat_prefix': ['bot', '@bot'], 'single_chat_reply_prefix': '[bot] ', 'group_chat_prefix': ['@bot'], 'group_name_white_list': ['ChatGPT测试群', '自己人测试群'], 'image_create_prefix': ['画'], 'speech_recognition': True, 'group_speech_recognition': False, 'voice_reply_voice': False, 'conversation_max_tokens': 2500, 'expires_in_seconds': 3600, 'character_desc': '你是基于大语言模型的AI智能助手，旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。', 'temperature': 0.7, 'subscribe_msg': '感谢您的关注！\n这里是AI智能助手，可以自由对话。\n支持语音对话。\n支持图片输入。\n支持图片输出，画字开头的消息将按要求创作图片。\n支持tool、角色扮演和文字冒险等丰富的插件。\n输入{trigger_prefix}#help 查看详细指令。', 'use_linkai': False, 'linkai_api_key': '*****', 'linkai_app_code': ''}
+[INFO][2024-10-27 16:49:44][config.py:226] - [Config] User datas loaded.
+[INFO][2024-10-27 16:49:45][plugin_manager.py:50] - Loading plugins config...
+[INFO][2024-10-27 16:49:45][plugin_manager.py:88] - Scaning plugins ...
+[INFO][2024-10-27 16:49:45][plugin_manager.py:41] - Plugin Banwords_v1.0 registered, path=./plugins\banwords
+[INFO][2024-10-27 16:49:45][plugin_manager.py:41] - Plugin BDunit_v0.1 registered, path=./plugins\bdunit
+[INFO][2024-10-27 16:49:45][plugin_manager.py:41] - Plugin Dungeon_v1.0 registered, path=./plugins\dungeon
+[INFO][2024-10-27 16:49:45][plugin_manager.py:41] - Plugin Finish_v1.0 registered, path=./plugins\finish
+[INFO][2024-10-27 16:49:45][plugin_manager.py:41] - Plugin Godcmd_v1.0 registered, path=./plugins\godcmd
+[INFO][2024-10-27 16:49:45][plugin_manager.py:41] - Plugin Hello_v0.1 registered, path=./plugins\hello
+[INFO][2024-10-27 16:49:45][plugin_manager.py:41] - Plugin Keyword_v0.1 registered, path=./plugins\keyword
+[INFO][2024-10-27 16:49:45][plugin_manager.py:41] - Plugin linkai_v0.1.0 registered, path=./plugins\linkai
+[INFO][2024-10-27 16:49:45][plugin_manager.py:41] - Plugin Role_v1.0 registered, path=./plugins\role
+[WARNING][2024-10-27 16:49:45][plugin_manager.py:113] - Failed to import plugin tool: No module named 'chatgpt_tool_hub'
+[INFO][2024-10-27 16:49:45][godcmd.py:194] - [Godcmd] 因未设置口令，本次的临时口令为7902。
+[INFO][2024-10-27 16:49:45][godcmd.py:210] - [Godcmd] inited
+[INFO][2024-10-27 16:49:45][keyword.py:40] - [keyword] {}
+[INFO][2024-10-27 16:49:45][keyword.py:42] - [keyword] inited.
+[INFO][2024-10-27 16:49:45][linkai.py:35] - [LinkAI] inited, config={'group_app_map': {'测试群名1': 'default', '测试群名2': 'Kv2fXJcH'}, 'midjourney': {'enabled': False, 'auto_translate': True, 'img_proxy': True, 'max_tasks': 3, 'max_tasks_per_user': 1, 'use_image_create_prefix': True}, 'summary': {'enabled': False, 'group_enabled': True, 'max_file_size': 5000, 'type': ['FILE', 'SHARING']}}
+[INFO][2024-10-27 16:49:45][role.py:69] - [Role] inited
+[INFO][2024-10-27 16:49:45][dungeon.py:56] - [Dungeon] inited
+[INFO][2024-10-27 16:49:45][hello.py:38] - [Hello] inited
+[INFO][2024-10-27 16:49:45][finish.py:23] - [Finish] inited
+[ERROR][2024-10-27 16:49:46][wechat_channel.py:135] - No module named 'png'
+Traceback (most recent call last):
+  File "E:\code\cozewechat\chatgpt-on-wechat\channel\wechat\wechat_channel.py", line 121, in startup
+    itchat.auto_login(
+  File "E:\code\cozewechat\chatgpt-on-wechat\lib\itchat\components\register.py", line 38, in auto_login
+    self.login(enableCmdQR=enableCmdQR, picDir=picDir, qrCallback=qrCallback,
+  File "E:\code\cozewechat\chatgpt-on-wechat\lib\itchat\components\login.py", line 56, in login
+    qrStorage = self.get_QR(enableCmdQR=enableCmdQR,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\cozewechat\chatgpt-on-wechat\lib\itchat\components\login.py", line 130, in get_QR
+    qrCode.png(qrStorage, scale=10)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyqrcode\__init__.py", line 462, in png
+    builder._png(self.code, self.version, file, scale,
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyqrcode\builder.py", line 1266, in _png
+    import png
+ModuleNotFoundError: No module named 'png'
+[INFO][2024-10-27 16:51:15][config.py:302] - [INIT] load config: {'channel_type': 'wx', 'model': 'coze', 'coze_api_base': 'https://api.coze.cn/open_api/v2', 'coze_api_key': 'pat*****hv8', 'coze_bot_id': '7430312631141318675', 'text_to_image': 'dall-e-2', 'voice_to_text': 'openai', 'text_to_voice': 'openai', 'proxy': '', 'hot_reload': False, 'single_chat_prefix': ['bot', '@bot'], 'single_chat_reply_prefix': '[bot] ', 'group_chat_prefix': ['@bot'], 'group_name_white_list': ['ChatGPT测试群', '自己人测试群'], 'image_create_prefix': ['画'], 'speech_recognition': True, 'group_speech_recognition': False, 'voice_reply_voice': False, 'conversation_max_tokens': 2500, 'expires_in_seconds': 3600, 'character_desc': '你是基于大语言模型的AI智能助手，旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。', 'temperature': 0.7, 'subscribe_msg': '感谢您的关注！\n这里是AI智能助手，可以自由对话。\n支持语音对话。\n支持图片输入。\n支持图片输出，画字开头的消息将按要求创作图片。\n支持tool、角色扮演和文字冒险等丰富的插件。\n输入{trigger_prefix}#help 查看详细指令。', 'use_linkai': False, 'linkai_api_key': '*****', 'linkai_app_code': ''}
+[INFO][2024-10-27 16:51:15][config.py:226] - [Config] User datas loaded.
+[INFO][2024-10-27 16:51:15][plugin_manager.py:50] - Loading plugins config...
+[INFO][2024-10-27 16:51:15][plugin_manager.py:88] - Scaning plugins ...
+[INFO][2024-10-27 16:51:15][plugin_manager.py:41] - Plugin Banwords_v1.0 registered, path=./plugins\banwords
+[INFO][2024-10-27 16:51:15][plugin_manager.py:41] - Plugin BDunit_v0.1 registered, path=./plugins\bdunit
+[INFO][2024-10-27 16:51:15][plugin_manager.py:41] - Plugin Dungeon_v1.0 registered, path=./plugins\dungeon
+[INFO][2024-10-27 16:51:15][plugin_manager.py:41] - Plugin Finish_v1.0 registered, path=./plugins\finish
+[INFO][2024-10-27 16:51:15][plugin_manager.py:41] - Plugin Godcmd_v1.0 registered, path=./plugins\godcmd
+[INFO][2024-10-27 16:51:15][plugin_manager.py:41] - Plugin Hello_v0.1 registered, path=./plugins\hello
+[INFO][2024-10-27 16:51:15][plugin_manager.py:41] - Plugin Keyword_v0.1 registered, path=./plugins\keyword
+[INFO][2024-10-27 16:51:15][plugin_manager.py:41] - Plugin linkai_v0.1.0 registered, path=./plugins\linkai
+[INFO][2024-10-27 16:51:15][plugin_manager.py:41] - Plugin Role_v1.0 registered, path=./plugins\role
+[WARNING][2024-10-27 16:51:15][plugin_manager.py:113] - Failed to import plugin tool: No module named 'chatgpt_tool_hub'
+[INFO][2024-10-27 16:51:15][godcmd.py:194] - [Godcmd] 因未设置口令，本次的临时口令为2630。
+[INFO][2024-10-27 16:51:15][godcmd.py:210] - [Godcmd] inited
+[INFO][2024-10-27 16:51:15][keyword.py:40] - [keyword] {}
+[INFO][2024-10-27 16:51:15][keyword.py:42] - [keyword] inited.
+[INFO][2024-10-27 16:51:15][linkai.py:35] - [LinkAI] inited, config={'group_app_map': {'测试群名1': 'default', '测试群名2': 'Kv2fXJcH'}, 'midjourney': {'enabled': False, 'auto_translate': True, 'img_proxy': True, 'max_tasks': 3, 'max_tasks_per_user': 1, 'use_image_create_prefix': True}, 'summary': {'enabled': False, 'group_enabled': True, 'max_file_size': 5000, 'type': ['FILE', 'SHARING']}}
+[INFO][2024-10-27 16:51:15][role.py:69] - [Role] inited
+[INFO][2024-10-27 16:51:15][dungeon.py:56] - [Dungeon] inited
+[INFO][2024-10-27 16:51:15][hello.py:38] - [Hello] inited
+[INFO][2024-10-27 16:51:15][finish.py:23] - [Finish] inited
+[INFO][2024-10-27 16:51:55][wechat_channel.py:131] - Wechat login success, user_id: @ba63ae393c9e7be313242e27fe5445d7ea7eefb267862fd57a6c15f5a8d5c64d, nickname: 平
+[INFO][2024-10-27 16:52:49][app.py:19] - signal 2 received, exiting...
+[INFO][2024-10-27 16:52:49][config.py:237] - [Config] User datas saved.
+[INFO][2024-10-27 16:52:49][app.py:19] - signal 2 received, exiting...
+[INFO][2024-10-27 16:52:49][config.py:237] - [Config] User datas saved.
+[INFO][2024-10-27 16:58:17][config.py:302] - [INIT] load config: {'channel_type': 'wx', 'model': 'coze', 'coze_api_base': 'https://api.coze.cn/open_api/v2', 'coze_api_key': 'pat*****hv8', 'coze_bot_id': '7430312631141318675', 'text_to_image': 'dall-e-2', 'voice_to_text': 'openai', 'text_to_voice': 'openai', 'proxy': '', 'hot_reload': False, 'single_chat_prefix': ['bot', '@bot'], 'single_chat_reply_prefix': '[bot] ', 'group_chat_prefix': ['@bot'], 'group_name_white_list': ['A7❤️进群看群公告', '诗词配音素材群'], 'image_create_prefix': ['画'], 'speech_recognition': True, 'group_speech_recognition': False, 'voice_reply_voice': False, 'conversation_max_tokens': 2500, 'expires_in_seconds': 3600, 'character_desc': '你是基于大语言模型的AI智能助手，旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。', 'temperature': 0.7, 'subscribe_msg': '感谢您的关注！\n这里是AI智能助手，可以自由对话。\n支持语音对话。\n支持图片输入。\n支持图片输出，画字开头的消息将按要求创作图片。\n支持tool、角色扮演和文字冒险等丰富的插件。\n输入{trigger_prefix}#help 查看详细指令。', 'use_linkai': False, 'linkai_api_key': '*****', 'linkai_app_code': ''}
+[INFO][2024-10-27 16:58:17][config.py:226] - [Config] User datas loaded.
+[INFO][2024-10-27 16:58:17][plugin_manager.py:50] - Loading plugins config...
+[INFO][2024-10-27 16:58:17][plugin_manager.py:88] - Scaning plugins ...
+[INFO][2024-10-27 16:58:17][plugin_manager.py:41] - Plugin Banwords_v1.0 registered, path=./plugins\banwords
+[INFO][2024-10-27 16:58:17][plugin_manager.py:41] - Plugin BDunit_v0.1 registered, path=./plugins\bdunit
+[INFO][2024-10-27 16:58:17][plugin_manager.py:41] - Plugin Dungeon_v1.0 registered, path=./plugins\dungeon
+[INFO][2024-10-27 16:58:17][plugin_manager.py:41] - Plugin Finish_v1.0 registered, path=./plugins\finish
+[INFO][2024-10-27 16:58:17][plugin_manager.py:41] - Plugin Godcmd_v1.0 registered, path=./plugins\godcmd
+[INFO][2024-10-27 16:58:17][plugin_manager.py:41] - Plugin Hello_v0.1 registered, path=./plugins\hello
+[INFO][2024-10-27 16:58:17][plugin_manager.py:41] - Plugin Keyword_v0.1 registered, path=./plugins\keyword
+[INFO][2024-10-27 16:58:17][plugin_manager.py:41] - Plugin linkai_v0.1.0 registered, path=./plugins\linkai
+[INFO][2024-10-27 16:58:17][plugin_manager.py:41] - Plugin Role_v1.0 registered, path=./plugins\role
+[WARNING][2024-10-27 16:58:17][plugin_manager.py:113] - Failed to import plugin tool: No module named 'chatgpt_tool_hub'
+[INFO][2024-10-27 16:58:17][godcmd.py:194] - [Godcmd] 因未设置口令，本次的临时口令为8401。
+[INFO][2024-10-27 16:58:17][godcmd.py:210] - [Godcmd] inited
+[INFO][2024-10-27 16:58:17][keyword.py:40] - [keyword] {}
+[INFO][2024-10-27 16:58:17][keyword.py:42] - [keyword] inited.
+[INFO][2024-10-27 16:58:17][linkai.py:35] - [LinkAI] inited, config={'group_app_map': {'测试群名1': 'default', '测试群名2': 'Kv2fXJcH'}, 'midjourney': {'enabled': False, 'auto_translate': True, 'img_proxy': True, 'max_tasks': 3, 'max_tasks_per_user': 1, 'use_image_create_prefix': True}, 'summary': {'enabled': False, 'group_enabled': True, 'max_file_size': 5000, 'type': ['FILE', 'SHARING']}}
+[INFO][2024-10-27 16:58:17][role.py:69] - [Role] inited
+[INFO][2024-10-27 16:58:17][dungeon.py:56] - [Dungeon] inited
+[INFO][2024-10-27 16:58:17][hello.py:38] - [Hello] inited
+[INFO][2024-10-27 16:58:17][finish.py:23] - [Finish] inited
+[INFO][2024-10-27 16:58:43][wechat_channel.py:131] - Wechat login success, user_id: @da9d0ee265634de5e885fad9de82b25cf9a0f137dc5bc1d73dd632fa3bbe301d, nickname: bot
+[INFO][2024-10-27 16:58:57][chat_channel.py:117] - [chat_channel]receive group at
+[WARNING][2024-10-27 16:58:57][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 16:58:57][bridge.py:70] - create bot coze for chat
+[INFO][2024-10-27 16:58:57][bytedance_coze_bot.py:26] - [COZE] query=厨神
+[WARNING][2024-10-27 16:58:57][session_manager.py:72] - Exception when counting tokens precisely for prompt: No module named 'tiktoken'
+[ERROR][2024-10-27 16:58:58][bytedance_coze_bot.py:33] - [COZE] reply error=[COZE] Error: 未具备相应权限，请查阅对应 API Token文档 如有问题请提交反馈
+[INFO][2024-10-27 16:58:58][wechat_channel.py:217] - [WX] sendMsg=Reply(type=ERROR, content=[ERROR]
+我暂时遇到了一些问题，请您稍后重试~), receiver=@@9a43858e0095af7e748853d7a925fb004abb5ab7fcdc7a1b335238dd9e849131
+[INFO][2024-10-27 17:00:11][chat_channel.py:117] - [chat_channel]receive group at
+[WARNING][2024-10-27 17:00:11][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 17:00:11][bytedance_coze_bot.py:26] - [COZE] query=桃花
+[WARNING][2024-10-27 17:00:11][session_manager.py:72] - Exception when counting tokens precisely for prompt: No module named 'tiktoken'
+[INFO][2024-10-27 17:00:23][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@小白菜白又白
+为你搜索到短剧信息如下：
+🎬 短剧名称：桃花马上请长缨
+📁 短剧链接：https://pan.quark.cn/s/554768237f8e
+🎬 短剧名称：《桃花马上请长缨》
+📁 短剧链接：https://pan.quark.cn/s/3503d98661a1
+🎬 短剧名称：13170-桃花医圣（177集）
+📁 短剧链接：https://pan.quark.cn/s/8c04df77399b), receiver=@@9a43858e0095af7e748853d7a925fb004abb5ab7fcdc7a1b335238dd9e849131
+[INFO][2024-10-27 17:00:43][chat_channel.py:117] - [chat_channel]receive group at
+[WARNING][2024-10-27 17:00:43][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 17:00:43][bytedance_coze_bot.py:26] - [COZE] query=13111
+[WARNING][2024-10-27 17:00:43][session_manager.py:72] - Exception when counting tokens precisely for prompt: No module named 'tiktoken'
+[INFO][2024-10-27 17:00:54][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@小白菜白又白
+为你搜索到短剧信息如下：
+🎬 短剧名称：13111-玄学大佬她直播惊艳全球（47集）马铭婕
+📁 短剧链接：https://pan.quark.cn/s/8313e05fc3a8), receiver=@@9a43858e0095af7e748853d7a925fb004abb5ab7fcdc7a1b335238dd9e849131
+[INFO][2024-10-27 17:01:08][chat_channel.py:117] - [chat_channel]receive group at
+[WARNING][2024-10-27 17:01:08][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 17:01:08][bytedance_coze_bot.py:26] - [COZE] query=13372
+[WARNING][2024-10-27 17:01:08][session_manager.py:72] - Exception when counting tokens precisely for prompt: No module named 'tiktoken'
+[INFO][2024-10-27 17:01:17][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@小白菜白又白
+为你搜索到短剧信息如下：
+🎬 短剧名称：13372-重生后我被京圈太子爷宠上天（78集）申浩男&钟熙
+📁 短剧链接：https://pan.quark.cn/s/32b6a9e78daa), receiver=@@9a43858e0095af7e748853d7a925fb004abb5ab7fcdc7a1b335238dd9e849131
+[INFO][2024-10-27 17:03:11][chat_channel.py:117] - [chat_channel]receive group at
+[WARNING][2024-10-27 17:03:11][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 17:03:11][bytedance_coze_bot.py:26] - [COZE] query=13396
+[WARNING][2024-10-27 17:03:11][session_manager.py:72] - Exception when counting tokens precisely for prompt: No module named 'tiktoken'
+[ERROR][2024-10-27 17:03:26][chat_channel.py:291] - [chat_channel] sendMsg error: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsendmsg (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+[ERROR][2024-10-27 17:03:26][chat_channel.py:294] - HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsendmsg (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 537, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 466, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1395, in getresponse
+    response.begin()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 325, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 294, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+The above exception was the direct cause of the following exception:
+
+urllib3.exceptions.ProxyError: ('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsendmsg (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\code\cozewechat\chatgpt-on-wechat\channel\chat_channel.py", line 289, in _send
+    self.send(reply, context)
+  File "E:\code\cozewechat\chatgpt-on-wechat\channel\wechat\wechat_channel.py", line 213, in send
+    itchat.send(reply.content, toUserName=receiver)
+  File "E:\code\cozewechat\chatgpt-on-wechat\lib\itchat\components\messages.py", line 513, in send
+    r = self.send_msg(msg, toUserName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\cozewechat\chatgpt-on-wechat\lib\itchat\components\messages.py", line 283, in send_msg
+    r = self.send_raw_msg(1, msg, toUserName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\cozewechat\chatgpt-on-wechat\lib\itchat\components\messages.py", line 277, in send_raw_msg
+    r = self.s.post(url, headers=headers,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 513, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsendmsg (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+[INFO][2024-10-27 17:03:30][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@追剧小能手
+为你搜索到短剧信息如下：
+🎬 短剧名称：13396-离婚后她带崽嫁入豪门（80集）裴总第二部 许梦圆
+📁 短剧链接：https://pan.quark.cn/s/147e167a158c), receiver=@@9a43858e0095af7e748853d7a925fb004abb5ab7fcdc7a1b335238dd9e849131
+[INFO][2024-10-27 17:04:55][config.py:302] - [INIT] load config: {'channel_type': 'wx', 'model': 'coze', 'coze_api_base': 'https://api.coze.cn/open_api/v2', 'coze_api_key': 'pat*****hv8', 'coze_bot_id': '7430312631141318675', 'text_to_image': 'dall-e-2', 'voice_to_text': 'openai', 'text_to_voice': 'openai', 'proxy': '', 'hot_reload': False, 'single_chat_prefix': [], 'single_chat_reply_prefix': '[bot] ', 'group_chat_prefix': ['@bot'], 'group_name_white_list': ['A7❤️进群看群公告', '诗词配音素材群'], 'image_create_prefix': ['画'], 'speech_recognition': True, 'group_speech_recognition': False, 'voice_reply_voice': False, 'conversation_max_tokens': 2500, 'expires_in_seconds': 3600, 'character_desc': '你是基于大语言模型的AI智能助手，旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。', 'temperature': 0.7, 'subscribe_msg': '感谢您的关注！\n这里是AI智能助手，可以自由对话。\n支持语音对话。\n支持图片输入。\n支持图片输出，画字开头的消息将按要求创作图片。\n支持tool、角色扮演和文字冒险等丰富的插件。\n输入{trigger_prefix}#help 查看详细指令。', 'use_linkai': False, 'linkai_api_key': '*****', 'linkai_app_code': ''}
+[INFO][2024-10-27 17:04:55][config.py:226] - [Config] User datas loaded.
+[INFO][2024-10-27 17:04:55][plugin_manager.py:50] - Loading plugins config...
+[INFO][2024-10-27 17:04:55][plugin_manager.py:88] - Scaning plugins ...
+[INFO][2024-10-27 17:04:55][plugin_manager.py:41] - Plugin Banwords_v1.0 registered, path=./plugins\banwords
+[INFO][2024-10-27 17:04:55][plugin_manager.py:41] - Plugin BDunit_v0.1 registered, path=./plugins\bdunit
+[INFO][2024-10-27 17:04:55][plugin_manager.py:41] - Plugin Dungeon_v1.0 registered, path=./plugins\dungeon
+[INFO][2024-10-27 17:04:55][plugin_manager.py:41] - Plugin Finish_v1.0 registered, path=./plugins\finish
+[INFO][2024-10-27 17:04:55][plugin_manager.py:41] - Plugin Godcmd_v1.0 registered, path=./plugins\godcmd
+[INFO][2024-10-27 17:04:55][plugin_manager.py:41] - Plugin Hello_v0.1 registered, path=./plugins\hello
+[INFO][2024-10-27 17:04:55][plugin_manager.py:41] - Plugin Keyword_v0.1 registered, path=./plugins\keyword
+[INFO][2024-10-27 17:04:55][plugin_manager.py:41] - Plugin linkai_v0.1.0 registered, path=./plugins\linkai
+[INFO][2024-10-27 17:04:55][plugin_manager.py:41] - Plugin Role_v1.0 registered, path=./plugins\role
+[WARNING][2024-10-27 17:04:55][plugin_manager.py:113] - Failed to import plugin tool: No module named 'chatgpt_tool_hub'
+[INFO][2024-10-27 17:04:55][godcmd.py:194] - [Godcmd] 因未设置口令，本次的临时口令为5630。
+[INFO][2024-10-27 17:04:55][godcmd.py:210] - [Godcmd] inited
+[INFO][2024-10-27 17:04:55][keyword.py:40] - [keyword] {}
+[INFO][2024-10-27 17:04:55][keyword.py:42] - [keyword] inited.
+[INFO][2024-10-27 17:04:55][linkai.py:35] - [LinkAI] inited, config={'group_app_map': {'测试群名1': 'default', '测试群名2': 'Kv2fXJcH'}, 'midjourney': {'enabled': False, 'auto_translate': True, 'img_proxy': True, 'max_tasks': 3, 'max_tasks_per_user': 1, 'use_image_create_prefix': True}, 'summary': {'enabled': False, 'group_enabled': True, 'max_file_size': 5000, 'type': ['FILE', 'SHARING']}}
+[INFO][2024-10-27 17:04:55][role.py:69] - [Role] inited
+[INFO][2024-10-27 17:04:55][dungeon.py:56] - [Dungeon] inited
+[INFO][2024-10-27 17:04:55][hello.py:38] - [Hello] inited
+[INFO][2024-10-27 17:04:55][finish.py:23] - [Finish] inited
+[INFO][2024-10-27 17:05:22][wechat_channel.py:131] - Wechat login success, user_id: @10b8bda211d91ce96962a757ae7d1831337751339a3da42c1d0f2ea4660a4b76, nickname: bot
+[INFO][2024-10-27 17:05:37][chat_channel.py:117] - [chat_channel]receive group at
+[WARNING][2024-10-27 17:05:37][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 17:05:37][bridge.py:70] - create bot coze for chat
+[INFO][2024-10-27 17:05:37][bytedance_coze_bot.py:26] - [COZE] query=桃花
+[WARNING][2024-10-27 17:05:37][session_manager.py:72] - Exception when counting tokens precisely for prompt: No module named 'tiktoken'
+[ERROR][2024-10-27 17:05:52][chat_channel.py:291] - [chat_channel] sendMsg error: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsendmsg (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+[ERROR][2024-10-27 17:05:52][chat_channel.py:294] - HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsendmsg (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 537, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 466, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1395, in getresponse
+    response.begin()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 325, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 294, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+The above exception was the direct cause of the following exception:
+
+urllib3.exceptions.ProxyError: ('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsendmsg (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\code\cozewechat\chatgpt-on-wechat\channel\chat_channel.py", line 289, in _send
+    self.send(reply, context)
+  File "E:\code\cozewechat\chatgpt-on-wechat\channel\wechat\wechat_channel.py", line 213, in send
+    itchat.send(reply.content, toUserName=receiver)
+  File "E:\code\cozewechat\chatgpt-on-wechat\lib\itchat\components\messages.py", line 513, in send
+    r = self.send_msg(msg, toUserName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\cozewechat\chatgpt-on-wechat\lib\itchat\components\messages.py", line 283, in send_msg
+    r = self.send_raw_msg(1, msg, toUserName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\cozewechat\chatgpt-on-wechat\lib\itchat\components\messages.py", line 277, in send_raw_msg
+    r = self.s.post(url, headers=headers,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 513, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsendmsg (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+[INFO][2024-10-27 17:05:56][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@小白菜白又白
+为你搜索到短剧信息如下：
+🎬 短剧名称：桃花马上请长缨
+📁 短剧链接：https://pan.quark.cn/s/554768237f8e
+🎬 短剧名称：《桃花马上请长缨》
+📁 短剧链接：https://pan.quark.cn/s/3503d98661a1
+🎬 短剧名称：13170-桃花医圣（177集）
+📁 短剧链接：https://pan.quark.cn/s/8c04df77399b), receiver=@@1f1933057247edc84193c05d6cd346ddb6b512892bd4942f5b88422c70cc5a53
+[INFO][2024-10-27 17:08:04][app.py:19] - signal 2 received, exiting...
+[INFO][2024-10-27 17:08:04][config.py:237] - [Config] User datas saved.
+[INFO][2024-10-27 17:09:11][config.py:302] - [INIT] load config: {'channel_type': 'wx', 'model': 'coze', 'coze_api_base': 'https://api.coze.cn/open_api/v2', 'coze_api_key': 'pat*****hv8', 'coze_bot_id': '7430312631141318675', 'text_to_image': 'dall-e-2', 'voice_to_text': 'openai', 'text_to_voice': 'openai', 'proxy': '', 'hot_reload': False, 'single_chat_prefix': [], 'single_chat_reply_prefix': '[bot] ', 'group_chat_prefix': [], 'group_name_white_list': ['A7❤️进群看群公告', '诗词配音素材群'], 'image_create_prefix': ['画'], 'speech_recognition': True, 'group_speech_recognition': False, 'voice_reply_voice': False, 'conversation_max_tokens': 2500, 'expires_in_seconds': 3600, 'character_desc': '你是基于大语言模型的AI智能助手，旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。', 'temperature': 0.7, 'subscribe_msg': '感谢您的关注！\n这里是AI智能助手，可以自由对话。\n支持语音对话。\n支持图片输入。\n支持图片输出，画字开头的消息将按要求创作图片。\n支持tool、角色扮演和文字冒险等丰富的插件。\n输入{trigger_prefix}#help 查看详细指令。', 'use_linkai': False, 'linkai_api_key': '*****', 'linkai_app_code': ''}
+[INFO][2024-10-27 17:09:11][config.py:226] - [Config] User datas loaded.
+[INFO][2024-10-27 17:09:12][plugin_manager.py:50] - Loading plugins config...
+[INFO][2024-10-27 17:09:12][plugin_manager.py:88] - Scaning plugins ...
+[INFO][2024-10-27 17:09:12][plugin_manager.py:41] - Plugin Banwords_v1.0 registered, path=./plugins\banwords
+[INFO][2024-10-27 17:09:12][plugin_manager.py:41] - Plugin BDunit_v0.1 registered, path=./plugins\bdunit
+[INFO][2024-10-27 17:09:12][plugin_manager.py:41] - Plugin Dungeon_v1.0 registered, path=./plugins\dungeon
+[INFO][2024-10-27 17:09:12][plugin_manager.py:41] - Plugin Finish_v1.0 registered, path=./plugins\finish
+[INFO][2024-10-27 17:09:12][plugin_manager.py:41] - Plugin Godcmd_v1.0 registered, path=./plugins\godcmd
+[INFO][2024-10-27 17:09:12][plugin_manager.py:41] - Plugin Hello_v0.1 registered, path=./plugins\hello
+[INFO][2024-10-27 17:09:12][plugin_manager.py:41] - Plugin Keyword_v0.1 registered, path=./plugins\keyword
+[INFO][2024-10-27 17:09:12][plugin_manager.py:41] - Plugin linkai_v0.1.0 registered, path=./plugins\linkai
+[INFO][2024-10-27 17:09:12][plugin_manager.py:41] - Plugin Role_v1.0 registered, path=./plugins\role
+[WARNING][2024-10-27 17:09:12][plugin_manager.py:113] - Failed to import plugin tool: No module named 'chatgpt_tool_hub'
+[INFO][2024-10-27 17:09:12][godcmd.py:194] - [Godcmd] 因未设置口令，本次的临时口令为3061。
+[INFO][2024-10-27 17:09:12][godcmd.py:210] - [Godcmd] inited
+[INFO][2024-10-27 17:09:12][keyword.py:40] - [keyword] {}
+[INFO][2024-10-27 17:09:12][keyword.py:42] - [keyword] inited.
+[INFO][2024-10-27 17:09:12][linkai.py:35] - [LinkAI] inited, config={'group_app_map': {'测试群名1': 'default', '测试群名2': 'Kv2fXJcH'}, 'midjourney': {'enabled': False, 'auto_translate': True, 'img_proxy': True, 'max_tasks': 3, 'max_tasks_per_user': 1, 'use_image_create_prefix': True}, 'summary': {'enabled': False, 'group_enabled': True, 'max_file_size': 5000, 'type': ['FILE', 'SHARING']}}
+[INFO][2024-10-27 17:09:12][role.py:69] - [Role] inited
+[INFO][2024-10-27 17:09:12][dungeon.py:56] - [Dungeon] inited
+[INFO][2024-10-27 17:09:12][hello.py:38] - [Hello] inited
+[INFO][2024-10-27 17:09:12][finish.py:23] - [Finish] inited
+[INFO][2024-10-27 17:09:37][wechat_channel.py:131] - Wechat login success, user_id: @aa4a0775c5bbc55d375557db8f4e18bc82e6d613907042730cc12dda3520c86c, nickname: bot
+[INFO][2024-10-27 17:10:03][chat_channel.py:117] - [chat_channel]receive group at
+[WARNING][2024-10-27 17:10:03][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 17:10:03][bridge.py:70] - create bot coze for chat
+[INFO][2024-10-27 17:10:03][bytedance_coze_bot.py:26] - [COZE] query=桃花
+[WARNING][2024-10-27 17:10:03][session_manager.py:72] - Exception when counting tokens precisely for prompt: No module named 'tiktoken'
+[ERROR][2024-10-27 17:10:18][chat_channel.py:291] - [chat_channel] sendMsg error: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsendmsg (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+[ERROR][2024-10-27 17:10:18][chat_channel.py:294] - HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsendmsg (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 537, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 466, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1395, in getresponse
+    response.begin()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 325, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 294, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+The above exception was the direct cause of the following exception:
+
+urllib3.exceptions.ProxyError: ('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsendmsg (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\code\cozewechat\chatgpt-on-wechat\channel\chat_channel.py", line 289, in _send
+    self.send(reply, context)
+  File "E:\code\cozewechat\chatgpt-on-wechat\channel\wechat\wechat_channel.py", line 213, in send
+    itchat.send(reply.content, toUserName=receiver)
+  File "E:\code\cozewechat\chatgpt-on-wechat\lib\itchat\components\messages.py", line 513, in send
+    r = self.send_msg(msg, toUserName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\cozewechat\chatgpt-on-wechat\lib\itchat\components\messages.py", line 283, in send_msg
+    r = self.send_raw_msg(1, msg, toUserName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\cozewechat\chatgpt-on-wechat\lib\itchat\components\messages.py", line 277, in send_raw_msg
+    r = self.s.post(url, headers=headers,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 513, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsendmsg (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+[INFO][2024-10-27 17:10:22][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@小白菜白又白
+为你搜索到短剧信息如下：
+🎬 短剧名称：桃花马上请长缨
+📁 短剧链接：https://pan.quark.cn/s/554768237f8e
+🎬 短剧名称：《桃花马上请长缨》
+📁 短剧链接：https://pan.quark.cn/s/3503d98661a1
+🎬 短剧名称：13170-桃花医圣（177集）
+📁 短剧链接：https://pan.quark.cn/s/8c04df77399b), receiver=@@1aad461a17569579f97fa76b70eaf776bf5080dd5ff090c982569d4895692b05
+[INFO][2024-10-27 17:11:34][app.py:19] - signal 2 received, exiting...
+[INFO][2024-10-27 17:11:34][config.py:237] - [Config] User datas saved.
+[INFO][2024-10-27 17:20:01][config.py:302] - [INIT] load config: {'channel_type': 'wx', 'model': 'coze', 'coze_api_base': 'https://api.coze.cn/open_api/v2', 'coze_api_key': 'pat*****hv8', 'coze_bot_id': '7430312631141318675', 'text_to_image': 'dall-e-2', 'voice_to_text': 'openai', 'text_to_voice': 'openai', 'proxy': '', 'hot_reload': False, 'single_chat_prefix': [], 'single_chat_reply_prefix': '[bot] ', 'group_chat_prefix': ['搜'], 'group_name_white_list': ['A7❤️进群看群公告', '诗词配音素材群', 'A6❤️短剧看群公告'], 'image_create_prefix': ['画'], 'speech_recognition': True, 'group_speech_recognition': False, 'voice_reply_voice': False, 'conversation_max_tokens': 2500, 'expires_in_seconds': 3600, 'character_desc': '你是基于大语言模型的AI智能助手，旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。', 'temperature': 0.7, 'subscribe_msg': '感谢您的关注！\n这里是AI智能助手，可以自由对话。\n支持语音对话。\n支持图片输入。\n支持图片输出，画字开头的消息将按要求创作图片。\n支持tool、角色扮演和文字冒险等丰富的插件。\n输入{trigger_prefix}#help 查看详细指令。', 'use_linkai': False, 'linkai_api_key': '*****', 'linkai_app_code': ''}
+[INFO][2024-10-27 17:20:01][config.py:226] - [Config] User datas loaded.
+[INFO][2024-10-27 17:20:01][plugin_manager.py:50] - Loading plugins config...
+[INFO][2024-10-27 17:20:01][plugin_manager.py:88] - Scaning plugins ...
+[INFO][2024-10-27 17:20:01][plugin_manager.py:41] - Plugin Banwords_v1.0 registered, path=./plugins\banwords
+[INFO][2024-10-27 17:20:01][plugin_manager.py:41] - Plugin BDunit_v0.1 registered, path=./plugins\bdunit
+[INFO][2024-10-27 17:20:01][plugin_manager.py:41] - Plugin Dungeon_v1.0 registered, path=./plugins\dungeon
+[INFO][2024-10-27 17:20:01][plugin_manager.py:41] - Plugin Finish_v1.0 registered, path=./plugins\finish
+[INFO][2024-10-27 17:20:01][plugin_manager.py:41] - Plugin Godcmd_v1.0 registered, path=./plugins\godcmd
+[INFO][2024-10-27 17:20:01][plugin_manager.py:41] - Plugin Hello_v0.1 registered, path=./plugins\hello
+[INFO][2024-10-27 17:20:01][plugin_manager.py:41] - Plugin Keyword_v0.1 registered, path=./plugins\keyword
+[INFO][2024-10-27 17:20:01][plugin_manager.py:41] - Plugin linkai_v0.1.0 registered, path=./plugins\linkai
+[INFO][2024-10-27 17:20:01][plugin_manager.py:41] - Plugin Role_v1.0 registered, path=./plugins\role
+[WARNING][2024-10-27 17:20:01][plugin_manager.py:113] - Failed to import plugin tool: No module named 'chatgpt_tool_hub'
+[INFO][2024-10-27 17:20:01][godcmd.py:194] - [Godcmd] 因未设置口令，本次的临时口令为6735。
+[INFO][2024-10-27 17:20:01][godcmd.py:210] - [Godcmd] inited
+[INFO][2024-10-27 17:20:01][keyword.py:40] - [keyword] {}
+[INFO][2024-10-27 17:20:01][keyword.py:42] - [keyword] inited.
+[INFO][2024-10-27 17:20:01][linkai.py:35] - [LinkAI] inited, config={'group_app_map': {'测试群名1': 'default', '测试群名2': 'Kv2fXJcH'}, 'midjourney': {'enabled': False, 'auto_translate': True, 'img_proxy': True, 'max_tasks': 3, 'max_tasks_per_user': 1, 'use_image_create_prefix': True}, 'summary': {'enabled': False, 'group_enabled': True, 'max_file_size': 5000, 'type': ['FILE', 'SHARING']}}
+[INFO][2024-10-27 17:20:01][role.py:69] - [Role] inited
+[INFO][2024-10-27 17:20:01][dungeon.py:56] - [Dungeon] inited
+[INFO][2024-10-27 17:20:01][hello.py:38] - [Hello] inited
+[INFO][2024-10-27 17:20:01][finish.py:23] - [Finish] inited
+[INFO][2024-10-27 17:20:27][wechat_channel.py:131] - Wechat login success, user_id: @70ae507ae615c1bde8a095378a091c2f2cd4f19f33172741f29fab1ffeba82ca, nickname: bot
+[WARNING][2024-10-27 17:20:54][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 17:20:54][bridge.py:70] - create bot coze for chat
+[INFO][2024-10-27 17:20:54][bytedance_coze_bot.py:26] - [COZE] query=桃花马上请长
+[WARNING][2024-10-27 17:20:57][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-10-27 17:21:07][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@小白菜白又白
+为你搜索到短剧信息如下：
+🎬 短剧名称：桃花马上请长缨
+📁 短剧链接：https://pan.quark.cn/s/554768237f8e
+🎬 短剧名称：《桃花马上请长缨》
+📁 短剧链接：https://pan.quark.cn/s/3503d98661a1), receiver=@@bc2ae7d138f4a7a68e709adacba031c5cbec33f36e39e8e6c6c3289b39451d3b
+[WARNING][2024-10-27 17:21:38][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 17:21:38][bytedance_coze_bot.py:26] - [COZE] query=13111
+[WARNING][2024-10-27 17:21:38][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-10-27 17:21:46][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@小白菜白又白
+为你搜索到短剧信息如下：
+🎬 短剧名称：13111-玄学大佬她直播惊艳全球（47集）马铭婕
+📁 短剧链接：https://pan.quark.cn/s/8313e05fc3a8), receiver=@@bc2ae7d138f4a7a68e709adacba031c5cbec33f36e39e8e6c6c3289b39451d3b
+[WARNING][2024-10-27 17:22:27][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 17:22:27][bytedance_coze_bot.py:26] - [COZE] query=13111
+[WARNING][2024-10-27 17:22:27][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-10-27 17:22:39][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@小白菜白又白
+为你搜索到短剧信息如下：
+🎬 短剧名称：13111-玄学大佬她直播惊艳全球（47集）马铭婕
+📁 短剧链接：https://pan.quark.cn/s/8313e05fc3a8), receiver=@@0ab640aff7677190e8e759e59df1e53e5433dff06b16da3cb307af15c3eec707
+[WARNING][2024-10-27 17:26:01][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 17:26:01][bytedance_coze_bot.py:26] - [COZE] query=13111
+[WARNING][2024-10-27 17:26:01][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-10-27 17:26:11][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@追剧小能手
+为你搜索到短剧信息如下：
+🎬 短剧名称：13111-玄学大佬她直播惊艳全球（47集）马铭婕
+📁 短剧链接：https://pan.quark.cn/s/8313e05fc3a8), receiver=@@bc2ae7d138f4a7a68e709adacba031c5cbec33f36e39e8e6c6c3289b39451d3b
+[WARNING][2024-10-27 17:27:05][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 17:27:05][bytedance_coze_bot.py:26] - [COZE] query=弄春风
+[WARNING][2024-10-27 17:27:05][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-10-27 17:27:12][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@追剧小能手
+为你搜索到短剧信息如下：
+🎬 短剧名称：13405-弄春风（99集）张楚萱
+📁 短剧链接：https://pan.quark.cn/s/0c6aabbffce0), receiver=@@bc2ae7d138f4a7a68e709adacba031c5cbec33f36e39e8e6c6c3289b39451d3b
+[INFO][2024-10-27 17:28:04][chat_channel.py:117] - [chat_channel]receive group at
+[WARNING][2024-10-27 17:28:05][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 17:28:05][bytedance_coze_bot.py:26] - [COZE] query=13391
+[WARNING][2024-10-27 17:28:05][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[ERROR][2024-10-27 17:28:18][chat_channel.py:291] - [chat_channel] sendMsg error: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsendmsg (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+[ERROR][2024-10-27 17:28:18][chat_channel.py:294] - HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsendmsg (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 537, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 466, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 1395, in getresponse
+    response.begin()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 325, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\http\client.py", line 294, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+The above exception was the direct cause of the following exception:
+
+urllib3.exceptions.ProxyError: ('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsendmsg (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\code\cozewechat\chatgpt-on-wechat\channel\chat_channel.py", line 289, in _send
+    self.send(reply, context)
+  File "E:\code\cozewechat\chatgpt-on-wechat\channel\wechat\wechat_channel.py", line 213, in send
+    itchat.send(reply.content, toUserName=receiver)
+  File "E:\code\cozewechat\chatgpt-on-wechat\lib\itchat\components\messages.py", line 513, in send
+    r = self.send_msg(msg, toUserName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\cozewechat\chatgpt-on-wechat\lib\itchat\components\messages.py", line 283, in send_msg
+    r = self.send_raw_msg(1, msg, toUserName)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\code\cozewechat\chatgpt-on-wechat\lib\itchat\components\messages.py", line 277, in send_raw_msg
+    r = self.s.post(url, headers=headers,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 513, in send
+    raise ProxyError(e, request=request)
+requests.exceptions.ProxyError: HTTPSConnectionPool(host='wx2.qq.com', port=443): Max retries exceeded with url: /cgi-bin/mmwebwx-bin/webwxsendmsg (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+[INFO][2024-10-27 17:28:22][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@追剧小能手
+为你搜索到短剧信息如下：
+🎬 短剧名称：13391-今日天晴宜爱你（77集）朱一未&白昕怡
+📁 短剧链接：https://pan.quark.cn/s/5eea03ee8766), receiver=@@bc2ae7d138f4a7a68e709adacba031c5cbec33f36e39e8e6c6c3289b39451d3b

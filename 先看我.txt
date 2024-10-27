@@ -1,0 +1,21 @@
+写在前面的话:
+
+1. 代码来自github https://github.com/zhayujie/chatgpt-on-wechat，添加对coze的支持
+2. 代码运行环境：python3.11以上 ,如何安装python自行百度。
+3. 不懂地方，添加个人微信：helloaigc2023 ，告知来自公众号。
+
+
+具体操作步骤：
+1. 首先，你需要安装Python环境，并安装所需要的库。你可以使用pip命令来安装所需要的库。
+
+```
+pip install -r requirements.txt
+
+```
+（不报错忽略）如果报错：pip不是内部命令这个错误，可能是你电脑有多个环境，
+如果python版本是3.11,那么执行 pip3.11  install -r requirements.txt 试试。
+
+2. 然后，你需要在config.json文件中配置你的coze_api_key 和coze_bot_id。
+
+
+3. 最后，你可以运行 python app.py 文件来启动机器人。

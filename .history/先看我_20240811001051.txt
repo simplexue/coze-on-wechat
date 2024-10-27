@@ -1,0 +1,2 @@
+1. 代码来自github https://github.com/zhayujie/chatgpt-on-wechat
+2. 代码运行环境：python3.12 

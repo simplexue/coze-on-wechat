@@ -1,0 +1,50 @@
+{
+    "sourceFile": "先看我.txt",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 8,
+            "patches": [
+                {
+                    "date": 1723306206306,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1723306251996,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,2 @@\n-1. \n\\ No newline at end of file\n+1. 代码来自github https://github.com/zhayujie/chatgpt-on-wechat\n+2. 代码运行环境：python3.12 \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723306363007,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,2 +1,17 @@\n+写在前面的话\n 1. 代码来自github https://github.com/zhayujie/chatgpt-on-wechat\n\\ No newline at end of file\n-2. 代码运行环境：python3.12 \n+2. 代码运行环境：python3.12 .如何安装python自行百度。\n+\n+\n+具体操作步骤：\n+1. 首先，你需要安装Python环境，并安装所需要的库。你可以使用pip命令来安装所需要的库。\n+\n+```bash\n+pip install -r requirements.txt\n+```\n+\n+2. 然后，你需要在config.json文件中配置你的coze_api_key 和coze_bot_id。\n+\n+\n+\n+3. 最后，你可以运行 python app.py 文件来启动机器人。\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723306370515,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n 写在前面的话\n 1. 代码来自github https://github.com/zhayujie/chatgpt-on-wechat\n-2. 代码运行环境：python3.12 .如何安装python自行百度。\n+2. 代码运行环境：python3.12 ,如何安装python自行百度。\n+3.\n \n \n 具体操作步骤：\n 1. 首先，你需要安装Python环境，并安装所需要的库。你可以使用pip命令来安装所需要的库。\n"
+                },
+                {
+                    "date": 1723306375837,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,7 @@\n 写在前面的话\n 1. 代码来自github https://github.com/zhayujie/chatgpt-on-wechat\n 2. 代码运行环境：python3.12 ,如何安装python自行百度。\n-3.\n \n \n 具体操作步骤：\n 1. 首先，你需要安装Python环境，并安装所需要的库。你可以使用pip命令来安装所需要的库。\n"
+                },
+                {
+                    "date": 1723306383665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n 写在前面的话\n 1. 代码来自github https://github.com/zhayujie/chatgpt-on-wechat\n-2. 代码运行环境：python3.12 ,如何安装python自行百度。\n+2. 代码运行环境：python3.11以上 ,如何安装python自行百度。\n \n \n 具体操作步骤：\n 1. 首先，你需要安装Python环境，并安装所需要的库。你可以使用pip命令来安装所需要的库。\n"
+                },
+                {
+                    "date": 1723306394497,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n 1. 代码来自github https://github.com/zhayujie/chatgpt-on-wechat\n 2. 代码运行环境：python3.11以上 ,如何安装python自行百度。\n \n \n+\n 具体操作步骤：\n 1. 首先，你需要安装Python环境，并安装所需要的库。你可以使用pip命令来安装所需要的库。\n \n ```bash\n@@ -12,6 +13,5 @@\n \n 2. 然后，你需要在config.json文件中配置你的coze_api_key 和coze_bot_id。\n \n \n-\n 3. 最后，你可以运行 python app.py 文件来启动机器人。\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1723306458753,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n 写在前面的话\n 1. 代码来自github https://github.com/zhayujie/chatgpt-on-wechat\n 2. 代码运行环境：python3.11以上 ,如何安装python自行百度。\n+3. 不懂地方，添加个人微信：helloaigc2023 ，告知来自公众号。\n \n \n-\n 具体操作步骤：\n 1. 首先，你需要安装Python环境，并安装所需要的库。你可以使用pip命令来安装所需要的库。\n \n ```bash\n"
+                },
+                {
+                    "date": 1723306507348,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n-写在前面的话\n+写在前面的话:\n+\n 1. 代码来自github https://github.com/zhayujie/chatgpt-on-wechat\n 2. 代码运行环境：python3.11以上 ,如何安装python自行百度。\n 3. 不懂地方，添加个人微信：helloaigc2023 ，告知来自公众号。\n \n"
+                }
+            ],
+            "date": 1723306206306,
+            "name": "Commit-0",
+            "content": "1. "
+        }
+    ]
+}
