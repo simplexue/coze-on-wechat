@@ -21,7 +21,7 @@ from config import conf
 
 class Hello(Plugin):
 
-    group_welc_prompt = "欢迎新朋友入群,免费搜剧格式为：搜xxx（xxx为剧名）,剧名前面加个搜字"
+    group_welc_prompt = "欢迎新朋友入群,免费搜剧格式为：搜xxx（xxx为剧名或序号）,剧名前面加个搜字"
     group_exit_prompt = ""
     # group_exit_prompt = "请你随机使用一种风格介绍你自己，并告诉用户输入#help可以查看帮助信息。"
     # patpat_prompt = "请你随机使用一种风格跟其他群用户说他违反规则\"{nickname}\"退出群聊。"

@@ -1249,3 +1249,12 @@ json.decoder.JSONDecodeError: Expecting value: line 23 column 3 (char 609)
 
 下载夸克APP转存至网盘观看，未保存到网盘只能试看两分钟
 按文件名排序可以从第一集开始自动播), receiver=@@567153b8a295f931280227a4b3ab812fe2e321603fe24981ebd564c28663e097
+[INFO][2024-10-27 22:29:12][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@没想到好名字怎么办
+欢迎新朋友入群
+
+免费搜剧格式为：
+
+搜xxx（xxx为剧名或序号）
+剧名前面加个搜字), receiver=@@567153b8a295f931280227a4b3ab812fe2e321603fe24981ebd564c28663e097
+[INFO][2024-10-27 22:32:34][app.py:19] - signal 2 received, exiting...
+[INFO][2024-10-27 22:32:34][config.py:237] - [Config] User datas saved.
