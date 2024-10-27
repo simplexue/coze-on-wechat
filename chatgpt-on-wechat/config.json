@@ -31,5 +31,16 @@
   "use_linkai": false,
   "linkai_api_key": "",
   "linkai_app_code": "",
-  "group_welcome_msg": "欢迎新朋友入群\n免费搜剧格式为：\n\n搜xxx（xxx为剧名）\n剧名前面加个搜字"
+  "group_welcome_msg": "欢迎新朋友入群\n免费搜剧格式为：\n\n搜xxx（xxx为剧名）\n剧名前面加个搜字",
+  "plugins": {
+    "hello": {
+      "group_welc_fixed_msg": {
+        "A7❤️进群看群公告": "欢迎新朋友入群\n免费搜剧格式为：\n\n搜xxx（xxx为剧名）\n剧名前面加个搜字\n",
+        "诗词配音素材群": "欢迎新朋友入群\n免费搜剧格式为：\n\n搜xxx（xxx为剧名）\n剧名前面加个搜字\n。",
+        "A6❤️短剧看群公告": "欢迎新朋友入群\n免费搜剧格式为：\n\n搜xxx（xxx为剧名）\n剧名前面加个搜字\n"
+      },
+      "group_welc_prompt": "欢迎新用户\"{nickname}\"加入群聊。\n免费搜剧格式为：\n\n搜xxx（xxx为剧名）\n剧名前面加个搜字\n",
+      "use_character_desc": false
+    }
+  }
 }
