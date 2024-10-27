@@ -843,3 +843,409 @@ requests.exceptions.ProxyError: HTTPSConnectionPool(host='wx2.qq.com', port=443)
 📁 短剧链接：https://pan.quark.cn/s/8313e05fc3a8
 🎬 短剧名称：12497-玄学大佬惊艳全球（59集）左一
 📁 短剧链接：https://pan.quark.cn/s/da74a2db074f), receiver=@@e9e56cc2d07ec38df932714dafde1de2fcc89d55cd8dcd98c41442f8229aa85b
+[INFO][2024-10-27 19:51:24][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@🌻聆听逝去的流年🦋、老郭、郭妞另外一个号
+欢迎新朋友入群
+免费搜剧格式为：
+
+搜xxx（xxx为剧名）
+剧名前面加个搜字), receiver=@@e9e56cc2d07ec38df932714dafde1de2fcc89d55cd8dcd98c41442f8229aa85b
+[INFO][2024-10-27 20:01:03][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@冬雾寒凉、、珂珂子、触不可及.
+欢迎新朋友入群
+免费搜剧格式为：
+
+搜xxx（xxx为剧名）
+剧名前面加个搜字), receiver=@@e9e56cc2d07ec38df932714dafde1de2fcc89d55cd8dcd98c41442f8229aa85b
+[WARNING][2024-10-27 20:05:00][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 20:05:00][bytedance_coze_bot.py:26] - [COZE] query=13156
+[WARNING][2024-10-27 20:05:00][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-10-27 20:05:09][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@璐璐不吃糖
+为你搜索到短剧信息如下：
+🎬 短剧名称：13156-消失的厨神（65集）
+📁 短剧链接：https://pan.quark.cn/s/83e964e52327), receiver=@@0965ee617dd801756f3921d7adc0aa13d6afcbae6b5a06340d84e383acb34588
+[WARNING][2024-10-27 20:11:42][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 20:11:42][bytedance_coze_bot.py:26] - [COZE] query=弄春风
+[WARNING][2024-10-27 20:11:42][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-10-27 20:11:51][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@一壶一茶🍵
+为你搜索到短剧信息如下：
+🎬 短剧名称：13405-弄春风（99集）张楚萱
+📁 短剧链接：https://pan.quark.cn/s/0c6aabbffce0), receiver=@@e9e56cc2d07ec38df932714dafde1de2fcc89d55cd8dcd98c41442f8229aa85b
+[INFO][2024-10-27 20:33:16][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@✨魚尾
+欢迎新朋友入群
+免费搜剧格式为：
+
+搜xxx（xxx为剧名）
+剧名前面加个搜字), receiver=@@e9e56cc2d07ec38df932714dafde1de2fcc89d55cd8dcd98c41442f8229aa85b
+[WARNING][2024-10-27 20:33:44][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 20:33:44][bytedance_coze_bot.py:26] - [COZE] query=昭昭殊荣
+[WARNING][2024-10-27 20:33:44][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-10-27 20:33:52][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@✨魚尾
+为你搜索到短剧信息如下：
+🎬 短剧名称：13243-昭昭殊荣（65集）
+📁 短剧链接：https://pan.quark.cn/s/b319becef34b), receiver=@@e9e56cc2d07ec38df932714dafde1de2fcc89d55cd8dcd98c41442f8229aa85b
+[INFO][2024-10-27 20:38:47][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@z^jiy🧀
+欢迎新朋友入群
+免费搜剧格式为：
+
+搜xxx（xxx为剧名）
+剧名前面加个搜字), receiver=@@e9e56cc2d07ec38df932714dafde1de2fcc89d55cd8dcd98c41442f8229aa85b
+[INFO][2024-10-27 20:38:56][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@能将四水化为波
+欢迎新朋友入群
+免费搜剧格式为：
+
+搜xxx（xxx为剧名）
+剧名前面加个搜字), receiver=@@e9e56cc2d07ec38df932714dafde1de2fcc89d55cd8dcd98c41442f8229aa85b
+[WARNING][2024-10-27 20:39:23][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 20:39:23][bytedance_coze_bot.py:26] - [COZE] query=昭昭殊荣
+[WARNING][2024-10-27 20:39:23][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-10-27 20:39:31][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@能将四水化为波
+为你搜索到短剧信息如下：
+🎬 短剧名称：13243-昭昭殊荣（65集）
+📁 短剧链接：https://pan.quark.cn/s/b319becef34b), receiver=@@e9e56cc2d07ec38df932714dafde1de2fcc89d55cd8dcd98c41442f8229aa85b
+[WARNING][2024-10-27 20:39:33][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 20:39:33][bytedance_coze_bot.py:26] - [COZE] query=我叫苏妲己
+[WARNING][2024-10-27 20:39:33][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-10-27 20:39:40][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@z^jiy🧀
+为你搜索到短剧信息如下：
+🎬 短剧名称：13305-我叫苏妲己（73集）
+📁 短剧链接：https://pan.quark.cn/s/0ccb38527d55), receiver=@@e9e56cc2d07ec38df932714dafde1de2fcc89d55cd8dcd98c41442f8229aa85b
+[WARNING][2024-10-27 20:42:20][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 20:42:20][bytedance_coze_bot.py:26] - [COZE] query=弄春风
+[WARNING][2024-10-27 20:42:20][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-10-27 20:42:27][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@一壶一茶🍵
+为你搜索到短剧信息如下：
+🎬 短剧名称：13405-弄春风（99集）张楚萱
+📁 短剧链接：https://pan.quark.cn/s/0c6aabbffce0), receiver=@@ead42c52023359561869337d4180d56a6cf9032defbb0f6906c6ad94eaaabc72
+[INFO][2024-10-27 20:47:03][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@💖、冬雾寒凉、、Ella、等风不等雨、触不可及.、章鱼炖菠萝蜜、花魿、吐出来感觉好多了
+欢迎新朋友入群
+免费搜剧格式为：
+
+搜xxx（xxx为剧名）
+剧名前面加个搜字), receiver=@@ead42c52023359561869337d4180d56a6cf9032defbb0f6906c6ad94eaaabc72
+[INFO][2024-10-27 20:47:12][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@珂珂子
+欢迎新朋友入群
+免费搜剧格式为：
+
+搜xxx（xxx为剧名）
+剧名前面加个搜字), receiver=@@ead42c52023359561869337d4180d56a6cf9032defbb0f6906c6ad94eaaabc72
+[WARNING][2024-10-27 20:52:41][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 20:52:41][bytedance_coze_bot.py:26] - [COZE] query=13111
+[WARNING][2024-10-27 20:52:41][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-10-27 20:52:47][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@璐璐不吃糖
+为你搜索到短剧信息如下：), receiver=@@0965ee617dd801756f3921d7adc0aa13d6afcbae6b5a06340d84e383acb34588
+[WARNING][2024-10-27 20:53:00][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 20:53:00][bytedance_coze_bot.py:26] - [COZE] query=13111
+[WARNING][2024-10-27 20:53:00][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-10-27 20:53:10][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@璐璐不吃糖
+为你搜索到短剧信息如下：
+🎬 短剧名称：13111-玄学大佬她直播惊艳全球（47集）马铭婕
+📁 短剧链接：https://pan.quark.cn/s/8313e05fc3a8), receiver=@@0965ee617dd801756f3921d7adc0aa13d6afcbae6b5a06340d84e383acb34588
+[WARNING][2024-10-27 20:53:51][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 20:53:51][bytedance_coze_bot.py:26] - [COZE] query=13417
+[WARNING][2024-10-27 20:53:51][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-10-27 20:53:58][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@一壶一茶🍵
+为你搜索到短剧信息如下：
+🎬 短剧名称：13417-娇蛮千金豪宠总裁上司（69集）张北淅＆王新颖
+📁 短剧链接：[点击查看](https://pan.quark.cn/s/b6736c82a3c4)), receiver=@@0965ee617dd801756f3921d7adc0aa13d6afcbae6b5a06340d84e383acb34588
+[INFO][2024-10-27 21:06:00][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@Capybara
+欢迎新朋友入群
+免费搜剧格式为：
+
+搜xxx（xxx为剧名）
+剧名前面加个搜字), receiver=@@ead42c52023359561869337d4180d56a6cf9032defbb0f6906c6ad94eaaabc72
+[WARNING][2024-10-27 21:14:28][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 21:14:28][bytedance_coze_bot.py:26] - [COZE] query=昭昭
+[WARNING][2024-10-27 21:14:28][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-10-27 21:14:36][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@璐璐不吃糖
+请稍等，正在为您搜剧中......), receiver=@@0965ee617dd801756f3921d7adc0aa13d6afcbae6b5a06340d84e383acb34588
+[INFO][2024-10-27 21:21:31][app.py:19] - signal 2 received, exiting...
+[INFO][2024-10-27 21:21:31][config.py:237] - [Config] User datas saved.
+[ERROR][2024-10-27 21:21:57][config.py:264] - Expecting value: line 23 column 3 (char 609)
+Traceback (most recent call last):
+  File "E:\code\cozewechat\chatgpt-on-wechat\config.py", line 248, in drag_sensitive
+    conf_dict: dict = json.loads(config)
+                      ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 23 column 3 (char 609)
+[ERROR][2024-10-27 21:21:57][app.py:66] - App startup failed!
+[ERROR][2024-10-27 21:21:57][app.py:67] - Expecting value: line 23 column 3 (char 609)
+Traceback (most recent call last):
+  File "E:\code\cozewechat\chatgpt-on-wechat\app.py", line 46, in run
+    load_config()
+  File "E:\code\cozewechat\chatgpt-on-wechat\config.py", line 280, in load_config
+    config = Config(json.loads(config_str))
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 23 column 3 (char 609)
+[ERROR][2024-10-27 21:22:15][config.py:264] - Expecting value: line 23 column 3 (char 609)
+Traceback (most recent call last):
+  File "E:\code\cozewechat\chatgpt-on-wechat\config.py", line 248, in drag_sensitive
+    conf_dict: dict = json.loads(config)
+                      ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 23 column 3 (char 609)
+[ERROR][2024-10-27 21:22:15][app.py:66] - App startup failed!
+[ERROR][2024-10-27 21:22:15][app.py:67] - Expecting value: line 23 column 3 (char 609)
+Traceback (most recent call last):
+  File "E:\code\cozewechat\chatgpt-on-wechat\app.py", line 46, in run
+    load_config()
+  File "E:\code\cozewechat\chatgpt-on-wechat\config.py", line 280, in load_config
+    config = Config(json.loads(config_str))
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 23 column 3 (char 609)
+[ERROR][2024-10-27 21:22:17][config.py:264] - Expecting value: line 23 column 3 (char 609)
+Traceback (most recent call last):
+  File "E:\code\cozewechat\chatgpt-on-wechat\config.py", line 248, in drag_sensitive
+    conf_dict: dict = json.loads(config)
+                      ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 23 column 3 (char 609)
+[ERROR][2024-10-27 21:22:17][app.py:66] - App startup failed!
+[ERROR][2024-10-27 21:22:17][app.py:67] - Expecting value: line 23 column 3 (char 609)
+Traceback (most recent call last):
+  File "E:\code\cozewechat\chatgpt-on-wechat\app.py", line 46, in run
+    load_config()
+  File "E:\code\cozewechat\chatgpt-on-wechat\config.py", line 280, in load_config
+    config = Config(json.loads(config_str))
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python311\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 23 column 3 (char 609)
+[INFO][2024-10-27 21:22:38][config.py:302] - [INIT] load config: {'channel_type': 'wx', 'model': 'coze', 'coze_api_base': 'https://api.coze.cn/open_api/v2', 'coze_api_key': 'pat*****hv8', 'coze_bot_id': '7429915965967794195', 'text_to_image': 'dall-e-2', 'voice_to_text': 'openai', 'text_to_voice': 'openai', 'proxy': '', 'hot_reload': False, 'single_chat_prefix': [], 'single_chat_reply_prefix': '[bot] ', 'group_chat_prefix': ['搜'], 'group_name_white_list': ['A7❤️进群看群公告', '诗词配音素材群', 'A6❤️短剧看群公告', 'A5❤️短剧看群公告', 'A8❤️短剧看群公告', 'A9❤️短剧看群公告', 'A10❤️短剧看群公告'], 'image_create_prefix': ['画'], 'speech_recognition': True, 'group_speech_recognition': False, 'voice_reply_voice': False, 'conversation_max_tokens': 2500, 'expires_in_seconds': 3600, 'character_desc': '你是基于大语言模型的AI智能助手，旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。', 'temperature': 0.7, 'subscribe_msg': '感谢您的关注！\n这里是AI智能助手，可以自由对话。\n支持语音对话。\n支持图片输入。\n支持图片输出，画字开头的消息将按要求创作图片。\n支持tool、角色扮演和文字冒险等丰富的插件。\n输入{trigger_prefix}#help 查看详细指令。', 'use_linkai': False, 'linkai_api_key': '*****', 'linkai_app_code': '', 'group_welcome_msg': '欢迎新朋友入群\n\n免费搜剧格式为：\n\n搜xxx（xxx为剧名或序号）\n剧名前面加个搜字'}
+[INFO][2024-10-27 21:22:38][config.py:226] - [Config] User datas loaded.
+[INFO][2024-10-27 21:22:39][plugin_manager.py:50] - Loading plugins config...
+[INFO][2024-10-27 21:22:39][plugin_manager.py:88] - Scaning plugins ...
+[INFO][2024-10-27 21:22:39][plugin_manager.py:41] - Plugin Banwords_v1.0 registered, path=./plugins\banwords
+[INFO][2024-10-27 21:22:39][plugin_manager.py:41] - Plugin BDunit_v0.1 registered, path=./plugins\bdunit
+[INFO][2024-10-27 21:22:39][plugin_manager.py:41] - Plugin Dungeon_v1.0 registered, path=./plugins\dungeon
+[INFO][2024-10-27 21:22:39][plugin_manager.py:41] - Plugin Finish_v1.0 registered, path=./plugins\finish
+[INFO][2024-10-27 21:22:39][plugin_manager.py:41] - Plugin Godcmd_v1.0 registered, path=./plugins\godcmd
+[INFO][2024-10-27 21:22:39][plugin_manager.py:41] - Plugin Hello_v0.1 registered, path=./plugins\hello
+[INFO][2024-10-27 21:22:39][plugin_manager.py:41] - Plugin Keyword_v0.1 registered, path=./plugins\keyword
+[INFO][2024-10-27 21:22:39][plugin_manager.py:41] - Plugin linkai_v0.1.0 registered, path=./plugins\linkai
+[INFO][2024-10-27 21:22:39][plugin_manager.py:41] - Plugin Role_v1.0 registered, path=./plugins\role
+[WARNING][2024-10-27 21:22:39][plugin_manager.py:113] - Failed to import plugin tool: No module named 'chatgpt_tool_hub'
+[INFO][2024-10-27 21:22:39][godcmd.py:194] - [Godcmd] 因未设置口令，本次的临时口令为6041。
+[INFO][2024-10-27 21:22:39][godcmd.py:210] - [Godcmd] inited
+[INFO][2024-10-27 21:22:39][keyword.py:40] - [keyword] {}
+[INFO][2024-10-27 21:22:39][keyword.py:42] - [keyword] inited.
+[INFO][2024-10-27 21:22:39][linkai.py:35] - [LinkAI] inited, config={'group_app_map': {'测试群名1': 'default', '测试群名2': 'Kv2fXJcH'}, 'midjourney': {'enabled': False, 'auto_translate': True, 'img_proxy': True, 'max_tasks': 3, 'max_tasks_per_user': 1, 'use_image_create_prefix': True}, 'summary': {'enabled': False, 'group_enabled': True, 'max_file_size': 5000, 'type': ['FILE', 'SHARING']}}
+[INFO][2024-10-27 21:22:39][role.py:69] - [Role] inited
+[INFO][2024-10-27 21:22:39][dungeon.py:56] - [Dungeon] inited
+[INFO][2024-10-27 21:22:39][hello.py:40] - [Hello] inited
+[INFO][2024-10-27 21:22:39][finish.py:23] - [Finish] inited
+[INFO][2024-10-27 21:23:16][wechat_channel.py:131] - Wechat login success, user_id: @7f2f356cc728699b6a0b294e5573f321b7eea051e670346583486ebeb231fce6, nickname: bot
+[WARNING][2024-10-27 21:23:24][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 21:23:24][bridge.py:70] - create bot coze for chat
+[INFO][2024-10-27 21:23:24][bytedance_coze_bot.py:26] - [COZE] query=昭昭
+[WARNING][2024-10-27 21:23:24][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[ERROR][2024-10-27 21:23:24][bytedance_coze_bot.py:33] - [COZE] reply error=[COZE] Error: 未具备相应权限，请查阅对应 API Token文档 如有问题请提交反馈
+[INFO][2024-10-27 21:23:24][wechat_channel.py:217] - [WX] sendMsg=Reply(type=ERROR, content=[ERROR]
+我暂时遇到了一些问题，请您稍后重试~), receiver=@@373945f0985db8db47acb53148b4bc4e39cf52e339a2620cd45d6818196b65ea
+[WARNING][2024-10-27 21:25:23][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 21:25:23][bytedance_coze_bot.py:26] - [COZE] query=13156
+[WARNING][2024-10-27 21:25:23][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[ERROR][2024-10-27 21:25:23][bytedance_coze_bot.py:33] - [COZE] reply error=[COZE] Error: 未具备相应权限，请查阅对应 API Token文档 如有问题请提交反馈
+[INFO][2024-10-27 21:25:23][wechat_channel.py:217] - [WX] sendMsg=Reply(type=ERROR, content=[ERROR]
+我暂时遇到了一些问题，请您稍后重试~), receiver=@@373945f0985db8db47acb53148b4bc4e39cf52e339a2620cd45d6818196b65ea
+[INFO][2024-10-27 21:26:27][app.py:19] - signal 2 received, exiting...
+[INFO][2024-10-27 21:26:27][config.py:237] - [Config] User datas saved.
+[INFO][2024-10-27 21:26:55][config.py:302] - [INIT] load config: {'channel_type': 'wx', 'model': 'coze', 'coze_api_base': 'https://api.coze.cn/open_api/v2', 'coze_api_key': 'pat*****hv8', 'coze_bot_id': '7430312631141318675', 'text_to_image': 'dall-e-2', 'voice_to_text': 'openai', 'text_to_voice': 'openai', 'proxy': '', 'hot_reload': False, 'single_chat_prefix': [], 'single_chat_reply_prefix': '[bot] ', 'group_chat_prefix': ['搜'], 'group_name_white_list': ['A7❤️进群看群公告', '诗词配音素材群', 'A6❤️短剧看群公告', 'A5❤️短剧看群公告', 'A8❤️短剧看群公告', 'A9❤️短剧看群公告', 'A10❤️短剧看群公告'], 'image_create_prefix': ['画'], 'speech_recognition': True, 'group_speech_recognition': False, 'voice_reply_voice': False, 'conversation_max_tokens': 2500, 'expires_in_seconds': 3600, 'character_desc': '你是基于大语言模型的AI智能助手，旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。', 'temperature': 0.7, 'subscribe_msg': '感谢您的关注！\n这里是AI智能助手，可以自由对话。\n支持语音对话。\n支持图片输入。\n支持图片输出，画字开头的消息将按要求创作图片。\n支持tool、角色扮演和文字冒险等丰富的插件。\n输入{trigger_prefix}#help 查看详细指令。', 'use_linkai': False, 'linkai_api_key': '*****', 'linkai_app_code': '', 'group_welcome_msg': '欢迎新朋友入群\n\n免费搜剧格式为：\n\n搜xxx（xxx为剧名或序号）\n剧名前面加个搜字'}
+[INFO][2024-10-27 21:26:55][config.py:226] - [Config] User datas loaded.
+[INFO][2024-10-27 21:26:55][plugin_manager.py:50] - Loading plugins config...
+[INFO][2024-10-27 21:26:55][plugin_manager.py:88] - Scaning plugins ...
+[INFO][2024-10-27 21:26:55][plugin_manager.py:41] - Plugin Banwords_v1.0 registered, path=./plugins\banwords
+[INFO][2024-10-27 21:26:55][plugin_manager.py:41] - Plugin BDunit_v0.1 registered, path=./plugins\bdunit
+[INFO][2024-10-27 21:26:55][plugin_manager.py:41] - Plugin Dungeon_v1.0 registered, path=./plugins\dungeon
+[INFO][2024-10-27 21:26:55][plugin_manager.py:41] - Plugin Finish_v1.0 registered, path=./plugins\finish
+[INFO][2024-10-27 21:26:55][plugin_manager.py:41] - Plugin Godcmd_v1.0 registered, path=./plugins\godcmd
+[INFO][2024-10-27 21:26:55][plugin_manager.py:41] - Plugin Hello_v0.1 registered, path=./plugins\hello
+[INFO][2024-10-27 21:26:55][plugin_manager.py:41] - Plugin Keyword_v0.1 registered, path=./plugins\keyword
+[INFO][2024-10-27 21:26:55][plugin_manager.py:41] - Plugin linkai_v0.1.0 registered, path=./plugins\linkai
+[INFO][2024-10-27 21:26:55][plugin_manager.py:41] - Plugin Role_v1.0 registered, path=./plugins\role
+[WARNING][2024-10-27 21:26:55][plugin_manager.py:113] - Failed to import plugin tool: No module named 'chatgpt_tool_hub'
+[INFO][2024-10-27 21:26:55][godcmd.py:194] - [Godcmd] 因未设置口令，本次的临时口令为9024。
+[INFO][2024-10-27 21:26:55][godcmd.py:210] - [Godcmd] inited
+[INFO][2024-10-27 21:26:55][keyword.py:40] - [keyword] {}
+[INFO][2024-10-27 21:26:55][keyword.py:42] - [keyword] inited.
+[INFO][2024-10-27 21:26:55][linkai.py:35] - [LinkAI] inited, config={'group_app_map': {'测试群名1': 'default', '测试群名2': 'Kv2fXJcH'}, 'midjourney': {'enabled': False, 'auto_translate': True, 'img_proxy': True, 'max_tasks': 3, 'max_tasks_per_user': 1, 'use_image_create_prefix': True}, 'summary': {'enabled': False, 'group_enabled': True, 'max_file_size': 5000, 'type': ['FILE', 'SHARING']}}
+[INFO][2024-10-27 21:26:55][role.py:69] - [Role] inited
+[INFO][2024-10-27 21:26:55][dungeon.py:56] - [Dungeon] inited
+[INFO][2024-10-27 21:26:55][hello.py:40] - [Hello] inited
+[INFO][2024-10-27 21:26:55][finish.py:23] - [Finish] inited
+[INFO][2024-10-27 21:27:20][wechat_channel.py:131] - Wechat login success, user_id: @c6d103dd878578f278b394569f15cb6d85a9762e2301568e3410c0e90818d20a, nickname: bot
+[WARNING][2024-10-27 21:27:33][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 21:27:33][bridge.py:70] - create bot coze for chat
+[INFO][2024-10-27 21:27:33][bytedance_coze_bot.py:26] - [COZE] query=13156
+[WARNING][2024-10-27 21:27:33][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-10-27 21:27:42][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@璐璐不吃糖
+请稍等，正在为您搜剧中......), receiver=@@940085365da2ca3fc10bdcecbafc56490229082addf967c1821c6a9725540052
+[WARNING][2024-10-27 21:28:07][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 21:28:07][bytedance_coze_bot.py:26] - [COZE] query=昭昭
+[WARNING][2024-10-27 21:28:07][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-10-27 21:28:14][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@璐璐不吃糖
+请稍等，正在为您搜剧中......), receiver=@@940085365da2ca3fc10bdcecbafc56490229082addf967c1821c6a9725540052
+[WARNING][2024-10-27 21:29:03][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 21:29:03][bytedance_coze_bot.py:26] - [COZE] query=昭昭
+[WARNING][2024-10-27 21:29:03][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-10-27 21:29:12][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@璐璐不吃糖
+为你搜索到短剧信息如下：
+🎬 短剧名称：13243-昭昭殊荣（65集）
+📁 短剧链接：https://pan.quark.cn/s/b319becef34b
+
+下载夸克APP转存至网盘观看，未保存到网盘只能试看两分钟
+按文件名排序可以从第一集开始自动播), receiver=@@940085365da2ca3fc10bdcecbafc56490229082addf967c1821c6a9725540052
+[WARNING][2024-10-27 21:30:10][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 21:30:10][bytedance_coze_bot.py:26] - [COZE] query=13417
+[WARNING][2024-10-27 21:30:10][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-10-27 21:30:23][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@一壶一茶🍵
+为你搜索到短剧信息如下：
+🎬 短剧名称：13417-娇蛮千金豪宠总裁上司（69集）张北淅＆王新颖
+📁 短剧链接：https://pan.quark.cn/s/b6736c82a3c4
+
+下载夸克APP转存至网盘观看，未保存到网盘只能试看两分钟
+按文件名排序可以从第一集开始自动播), receiver=@@940085365da2ca3fc10bdcecbafc56490229082addf967c1821c6a9725540052
+[INFO][2024-10-27 21:36:32][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@Zmmin
+欢迎新朋友入群
+
+免费搜剧格式为：
+
+搜xxx（xxx为剧名或序号）
+剧名前面加个搜字), receiver=@@567153b8a295f931280227a4b3ab812fe2e321603fe24981ebd564c28663e097
+[INFO][2024-10-27 21:38:33][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@一秒十
+欢迎新朋友入群
+
+免费搜剧格式为：
+
+搜xxx（xxx为剧名或序号）
+剧名前面加个搜字), receiver=@@567153b8a295f931280227a4b3ab812fe2e321603fe24981ebd564c28663e097
+[WARNING][2024-10-27 21:39:03][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 21:39:03][bytedance_coze_bot.py:26] - [COZE] query=偷听心声
+[WARNING][2024-10-27 21:39:03][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-10-27 21:39:12][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@🌼王者荣耀 🦋
+搜剧失败，暂无此资源。
+
+请检查剧名是否正确！), receiver=@@567153b8a295f931280227a4b3ab812fe2e321603fe24981ebd564c28663e097
+[WARNING][2024-10-27 21:39:46][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 21:39:46][bytedance_coze_bot.py:26] - [COZE] query=13417
+[WARNING][2024-10-27 21:39:46][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-10-27 21:39:57][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@🌼王者荣耀 🦋
+为你搜索到短剧信息如下：
+🎬 短剧名称：13417-娇蛮千金豪宠总裁上司（69集）张北淅＆王新颖
+📁 短剧链接：https://pan.quark.cn/s/b6736c82a3c4
+
+下载夸克APP转存至网盘观看，未保存到网盘只能试看两分钟
+按文件名排序可以从第一集开始自动播), receiver=@@567153b8a295f931280227a4b3ab812fe2e321603fe24981ebd564c28663e097
+[WARNING][2024-10-27 21:40:17][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 21:40:17][bytedance_coze_bot.py:26] - [COZE] query=重生后我被京圈太子爷宠上天
+[WARNING][2024-10-27 21:40:17][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-10-27 21:40:28][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@一秒十
+为你搜索到短剧信息如下：
+🎬 短剧名称：13372-重生后我被京圈太子爷宠上天（78集）申浩男&钟熙
+📁 短剧链接：https://pan.quark.cn/s/32b6a9e78daa
+
+下载夸克APP转存至网盘观看，未保存到网盘只能试看两分钟
+按文件名排序可以从第一集开始自动播), receiver=@@567153b8a295f931280227a4b3ab812fe2e321603fe24981ebd564c28663e097
+[INFO][2024-10-27 21:40:50][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@No
+欢迎新朋友入群
+
+免费搜剧格式为：
+
+搜xxx（xxx为剧名或序号）
+剧名前面加个搜字), receiver=@@567153b8a295f931280227a4b3ab812fe2e321603fe24981ebd564c28663e097
+[WARNING][2024-10-27 21:53:36][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 21:53:36][bytedance_coze_bot.py:26] - [COZE] query=前妻攻略
+[WARNING][2024-10-27 21:53:36][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-10-27 21:53:46][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@Q.
+为你搜索到短剧信息如下：
+🎬 短剧名称：6246-前妻攻略：傅先生乖乖宠我（106集）戴不动
+📁 短剧链接：https://pan.quark.cn/s/88af31dcb906
+🎬 短剧名称：6246-前妻攻略：傅先生乖乖宠我（106集）戴不动
+📁 短剧链接：https://pan.quark.cn/s/3a3d627dbcee
+
+下载夸克APP转存至网盘观看，未保存到网盘只能试看两分钟
+按文件名排序可以从第一集开始自动播), receiver=@@f7c1a257647300d2821aa505e781d44c0ab4ba33d479220ba2fe391979a1587b
+[WARNING][2024-10-27 21:54:37][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 21:54:37][bytedance_coze_bot.py:26] - [COZE] query=重生后我竟是京圈太子爷的白月光
+[WARNING][2024-10-27 21:54:37][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-10-27 21:54:43][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@✨魚尾
+搜剧失败，暂无此资源。
+
+请检查剧名是否正确！), receiver=@@f7c3704e7b89a67e7250e17330f280c2834611298f7f78201c3f1a218f0e71eb
+[WARNING][2024-10-27 21:55:16][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 21:55:16][bytedance_coze_bot.py:26] - [COZE] query=京圈太子爷的白月光
+[WARNING][2024-10-27 21:55:16][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-10-27 21:55:23][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@璐璐不吃糖
+搜剧失败，暂无此资源。
+
+请检查剧名是否正确！), receiver=@@940085365da2ca3fc10bdcecbafc56490229082addf967c1821c6a9725540052
+[INFO][2024-10-27 21:55:59][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@黑哥💋
+欢迎新朋友入群
+
+免费搜剧格式为：
+
+搜xxx（xxx为剧名或序号）
+剧名前面加个搜字), receiver=@@567153b8a295f931280227a4b3ab812fe2e321603fe24981ebd564c28663e097
+[WARNING][2024-10-27 21:56:51][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 21:56:51][bytedance_coze_bot.py:26] - [COZE] query=重生后我被京圈太子爷宠上天
+[WARNING][2024-10-27 21:56:51][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-10-27 21:57:02][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@✨魚尾
+为你搜索到短剧信息如下：
+🎬 短剧名称：13372-重生后我被京圈太子爷宠上天（78集）申浩男&钟熙
+📁 短剧链接：https://pan.quark.cn/s/32b6a9e78daa
+
+下载夸克APP转存至网盘观看，未保存到网盘只能试看两分钟
+按文件名排序可以从第一集开始自动播), receiver=@@f7c3704e7b89a67e7250e17330f280c2834611298f7f78201c3f1a218f0e71eb
+[WARNING][2024-10-27 21:57:27][role.py:103] - 不支持的bot: coze
+[INFO][2024-10-27 21:57:27][bytedance_coze_bot.py:26] - [COZE] query=玄学大佬
+[WARNING][2024-10-27 21:57:27][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-10-27 21:57:38][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@璐璐不吃糖
+为你搜索到短剧信息如下：
+🎬 短剧名称：13111-玄学大佬她直播惊艳全球（47集）马铭婕
+📁 短剧链接：https://pan.quark.cn/s/8313e05fc3a8
+🎬 短剧名称：12497-玄学大佬惊艳全球（59集）左一
+📁 短剧链接：https://pan.quark.cn/s/da74a2db074f
+
+下载夸克APP转存至网盘观看，未保存到网盘只能试看两分钟
+按文件名排序可以从第一集开始自动播), receiver=@@567153b8a295f931280227a4b3ab812fe2e321603fe24981ebd564c28663e097
