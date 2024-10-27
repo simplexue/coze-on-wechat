@@ -3,7 +3,7 @@
   "model": "coze",
   "coze_api_base": "https://api.coze.cn/open_api/v2",
   "coze_api_key": "pat_17IDKVPUrQWVaRoiJG2kNq3f9X9X9aYwEercxIWu206hCdZzHL19L7K45fbnihv8",
-  "coze_bot_id": "7430312631141318675",
+  "coze_bot_id": "7430389582765555750",
   "text_to_image": "dall-e-2",
   "voice_to_text": "openai",
   "text_to_voice": "openai",
