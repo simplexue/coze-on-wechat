@@ -21,6 +21,7 @@
     "A9❤️短剧看群公告",
     "A10❤️短剧看群公告"
   ],
+  "group_welcome_msg": "欢迎新朋友入群\n\n免费搜剧格式为：\n搜xxx（xxx为剧名或序号）\n剧名前面加个搜字",
   "image_create_prefix": [
     "画"
   ],
@@ -34,7 +35,5 @@
   "subscribe_msg": "感谢您的关注！\n这里是AI智能助手，可以自由对话。\n支持语音对话。\n支持图片输入。\n支持图片输出，画字开头的消息将按要求创作图片。\n支持tool、角色扮演和文字冒险等丰富的插件。\n输入{trigger_prefix}#help 查看详细指令。",
   "use_linkai": false,
   "linkai_api_key": "",
-  "linkai_app_code": "",
-  "group_welcome_msg": "欢迎新朋友入群\n\n免费搜剧格式为：\n搜xxx（xxx为剧名或序号）\n剧名前面加个搜字"
-  
+  "linkai_app_code": ""
 }
