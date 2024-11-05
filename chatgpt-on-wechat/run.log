@@ -1258,3 +1258,234 @@ json.decoder.JSONDecodeError: Expecting value: line 23 column 3 (char 609)
 剧名前面加个搜字), receiver=@@567153b8a295f931280227a4b3ab812fe2e321603fe24981ebd564c28663e097
 [INFO][2024-10-27 22:32:34][app.py:19] - signal 2 received, exiting...
 [INFO][2024-10-27 22:32:34][config.py:237] - [Config] User datas saved.
+[INFO][2024-11-06 00:47:47][config.py:302] - [INIT] load config: {'channel_type': 'wx', 'model': 'coze', 'coze_api_base': 'https://api.coze.cn/open_api/v2', 'coze_api_key': 'pat*****hv8', 'coze_bot_id': '7433804417407156259', 'text_to_image': 'dall-e-2', 'voice_to_text': 'openai', 'text_to_voice': 'openai', 'proxy': '', 'hot_reload': False, 'single_chat_prefix': [], 'single_chat_reply_prefix': '[bot] ', 'group_chat_prefix': ['搜'], 'group_name_white_list': ['A7❤️进群看群公告', '诗词配音素材群', 'A6❤️短剧看群公告', 'A5❤️短剧看群公告', 'A7❤️短剧看群公告', 'A8❤️短剧看群公告', 'A9❤️短剧看群公告', 'A10❤️短剧看群公告', 'A11❤️短剧看群公告', 'A12❤️短剧看群公告', 'A13❤️短剧看群公告', 'A14❤️短剧看群公告', 'A15❤️短剧看群公告', 'A16❤️短剧看群公告', 'A17❤️短剧看群公告', 'A17❤️短剧看群公告', 'A19❤️短剧看群公告', 'A20❤️短剧看群公告'], 'group_welcome_msg': '欢迎新朋友入群\n看啥搜啥\n剧名前加个搜字\n聊天框发送即可～\n搜xxx（xxx为想看的剧名或序号）\n如：消失的厨神（搜消失/搜厨神）\n如：搜13156', 'image_create_prefix': ['画'], 'speech_recognition': True, 'group_speech_recognition': False, 'voice_reply_voice': False, 'conversation_max_tokens': 2500, 'expires_in_seconds': 3600, 'character_desc': '你是基于大语言模型的AI智能助手，旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。', 'temperature': 0.7, 'subscribe_msg': '感谢您的关注！\n这里是AI智能助手，可以自由对话。\n支持语音对话。\n支持图片输入。\n支持图片输出，画字开头的消息将按要求创作图片。\n支持tool、角色扮演和文字冒险等丰富的插件。\n输入{trigger_prefix}#help 查看详细指令。', 'use_linkai': False, 'linkai_api_key': '*****', 'linkai_app_code': ''}
+[INFO][2024-11-06 00:47:47][config.py:226] - [Config] User datas loaded.
+[INFO][2024-11-06 00:47:48][plugin_manager.py:50] - Loading plugins config...
+[INFO][2024-11-06 00:47:48][plugin_manager.py:88] - Scaning plugins ...
+[INFO][2024-11-06 00:47:48][plugin_manager.py:41] - Plugin Banwords_v1.0 registered, path=./plugins\banwords
+[INFO][2024-11-06 00:47:48][plugin_manager.py:41] - Plugin BDunit_v0.1 registered, path=./plugins\bdunit
+[INFO][2024-11-06 00:47:48][plugin_manager.py:41] - Plugin Dungeon_v1.0 registered, path=./plugins\dungeon
+[INFO][2024-11-06 00:47:48][plugin_manager.py:41] - Plugin Finish_v1.0 registered, path=./plugins\finish
+[INFO][2024-11-06 00:47:48][plugin_manager.py:41] - Plugin Godcmd_v1.0 registered, path=./plugins\godcmd
+[INFO][2024-11-06 00:47:48][plugin_manager.py:41] - Plugin Hello_v0.1 registered, path=./plugins\hello
+[INFO][2024-11-06 00:47:48][plugin_manager.py:41] - Plugin Keyword_v0.1 registered, path=./plugins\keyword
+[INFO][2024-11-06 00:47:48][plugin_manager.py:41] - Plugin linkai_v0.1.0 registered, path=./plugins\linkai
+[INFO][2024-11-06 00:47:48][plugin_manager.py:41] - Plugin Role_v1.0 registered, path=./plugins\role
+[WARNING][2024-11-06 00:47:48][plugin_manager.py:113] - Failed to import plugin tool: No module named 'chatgpt_tool_hub'
+[INFO][2024-11-06 00:47:48][godcmd.py:194] - [Godcmd] 因未设置口令，本次的临时口令为3210。
+[INFO][2024-11-06 00:47:48][godcmd.py:210] - [Godcmd] inited
+[INFO][2024-11-06 00:47:48][keyword.py:40] - [keyword] {}
+[INFO][2024-11-06 00:47:48][keyword.py:42] - [keyword] inited.
+[INFO][2024-11-06 00:47:48][linkai.py:35] - [LinkAI] inited, config={'group_app_map': {'测试群名1': 'default', '测试群名2': 'Kv2fXJcH'}, 'midjourney': {'enabled': False, 'auto_translate': True, 'img_proxy': True, 'max_tasks': 3, 'max_tasks_per_user': 1, 'use_image_create_prefix': True}, 'summary': {'enabled': False, 'group_enabled': True, 'max_file_size': 5000, 'type': ['FILE', 'SHARING']}}
+[INFO][2024-11-06 00:47:48][role.py:69] - [Role] inited
+[INFO][2024-11-06 00:47:48][dungeon.py:56] - [Dungeon] inited
+[INFO][2024-11-06 00:47:48][hello.py:40] - [Hello] inited
+[INFO][2024-11-06 00:47:48][finish.py:23] - [Finish] inited
+[INFO][2024-11-06 00:48:16][wechat_channel.py:131] - Wechat login success, user_id: @91cc9cc651138509a6c8c1a4792f6ec0d13ede285733ec2ed3bbd01cd7888c33, nickname: 璐璐不吃糖
+[WARNING][2024-11-06 00:48:34][role.py:103] - 不支持的bot: coze
+[INFO][2024-11-06 00:48:34][bridge.py:70] - create bot coze for chat
+[INFO][2024-11-06 00:48:34][bytedance_coze_bot.py:26] - [COZE] query=我叫苏妲己
+[WARNING][2024-11-06 00:48:34][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-11-06 00:48:35][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@小白菜白又白
+{"output":"未找到相关资源！\n可更换关键词模糊搜索如：m我在八零年代当后妈可以发（搜后妈/搜八零）\n如：爱在黎明前降落可以发（搜黎明）\n\n短剧自助查询👇：\nhttps://www.kdocs.cn/etapps/query/q/4HPeGssL\n（可以输入编号也可以输入关键词）\n全网短剧目录（可自助搜剧,机器人随时停，记得收藏目录）👇：\nhttps://kdocs.cn/l/cbEiPQiHmq36"}), receiver=@@ca2fccf2a1c601b961b9676b248e7c61f5062698e987816b37ec4dfc1cd3ca9e
+[WARNING][2024-11-06 00:48:46][role.py:103] - 不支持的bot: coze
+[INFO][2024-11-06 00:48:46][bytedance_coze_bot.py:26] - [COZE] query=我叫苏妲己
+[WARNING][2024-11-06 00:48:46][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-11-06 00:48:47][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@小白菜白又白
+{"output":"未找到相关资源！\n可更换关键词模糊搜索如：m我在八零年代当后妈可以发（搜后妈/搜八零）\n如：爱在黎明前降落可以发（搜黎明）\n\n短剧自助查询👇：\nhttps://www.kdocs.cn/etapps/query/q/4HPeGssL\n（可以输入编号也可以输入关键词）\n全网短剧目录（可自助搜剧,机器人随时停，记得收藏目录）👇：\nhttps://kdocs.cn/l/cbEiPQiHmq36"}), receiver=@@ca2fccf2a1c601b961b9676b248e7c61f5062698e987816b37ec4dfc1cd3ca9e
+[WARNING][2024-11-06 00:48:55][role.py:103] - 不支持的bot: coze
+[INFO][2024-11-06 00:48:55][bytedance_coze_bot.py:26] - [COZE] query=13156
+[WARNING][2024-11-06 00:48:55][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-11-06 00:48:56][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@小白菜白又白
+{"output":"为你搜索到短剧信息如下：\n\n🎬 短剧名称：13156-消失的厨神（65集）\n📁 短剧链接：https://pan.quark.cn/s/83e964e52327\n\n--------------------\n\n下载夸克APP转存至网盘观看，未保存到网盘只能试看两分钟，保存之后按文件名排序即可顺序播放\n搜剧口令：搜xxx（尽量使用全称或者小范围关键词）\n全网短剧目录（可自助搜剧,机器人随时停，记得收藏目录）👇：\nhttps://kdocs.cn/l/cbEiPQiHmq36"}), receiver=@@ca2fccf2a1c601b961b9676b248e7c61f5062698e987816b37ec4dfc1cd3ca9e
+[WARNING][2024-11-06 00:49:17][role.py:103] - 不支持的bot: coze
+[INFO][2024-11-06 00:49:17][bytedance_coze_bot.py:26] - [COZE] query=13279
+[WARNING][2024-11-06 00:49:17][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-11-06 00:49:19][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@小白菜白又白
+{"output":"为你搜索到短剧信息如下：\n\n🎬 短剧名称：13279-被偷听心声后，豪门全家追着我宠（50集）\n📁 短剧链接：https://pan.quark.cn/s/9ac1877d2aa4\n\n--------------------\n\n下载夸克APP转存至网盘观看，未保存到网盘只能试看两分钟，保存之后按文件名排序即可顺序播放\n搜剧口令：搜xxx（尽量使用全称或者小范围关键词）\n全网短剧目录（可自助搜剧,机器人随时停，记得收藏目录）👇：\nhttps://kdocs.cn/l/cbEiPQiHmq36"}), receiver=@@ca2fccf2a1c601b961b9676b248e7c61f5062698e987816b37ec4dfc1cd3ca9e
+[INFO][2024-11-06 00:49:30][app.py:19] - signal 2 received, exiting...
+[INFO][2024-11-06 00:49:30][config.py:237] - [Config] User datas saved.
+[INFO][2024-11-06 00:58:33][app.py:19] - signal 2 received, exiting...
+[INFO][2024-11-06 00:58:33][config.py:237] - [Config] User datas saved.
+[INFO][2024-11-06 00:58:36][config.py:302] - [INIT] load config: {'channel_type': 'wx', 'model': 'coze', 'coze_api_base': 'https://api.coze.cn/open_api/v2', 'coze_api_key': 'pat*****hv8', 'coze_bot_id': '7433804417407156259', 'text_to_image': 'dall-e-2', 'voice_to_text': 'openai', 'text_to_voice': 'openai', 'proxy': '', 'hot_reload': False, 'single_chat_prefix': [], 'single_chat_reply_prefix': '[bot] ', 'group_chat_prefix': ['搜'], 'group_name_white_list': ['A7❤️进群看群公告', '诗词配音素材群', 'A6❤️短剧看群公告', 'A5❤️短剧看群公告', 'A7❤️短剧看群公告', 'A8❤️短剧看群公告', 'A9❤️短剧看群公告', 'A10❤️短剧看群公告', 'A11❤️短剧看群公告', 'A12❤️短剧看群公告', 'A13❤️短剧看群公告', 'A14❤️短剧看群公告', 'A15❤️短剧看群公告', 'A16❤️短剧看群公告', 'A17❤️短剧看群公告', 'A17❤️短剧看群公告', 'A19❤️短剧看群公告', 'A20❤️短剧看群公告'], 'group_welcome_msg': '欢迎新朋友入群\n看啥搜啥\n剧名前加个搜字\n聊天框发送即可～\n搜xxx（xxx为想看的剧名或序号）\n如：消失的厨神（搜消失/搜厨神）\n如：搜13156', 'image_create_prefix': ['画'], 'speech_recognition': True, 'group_speech_recognition': False, 'voice_reply_voice': False, 'conversation_max_tokens': 2500, 'expires_in_seconds': 3600, 'character_desc': '你是基于大语言模型的AI智能助手，旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。', 'temperature': 0.7, 'subscribe_msg': '感谢您的关注！\n这里是AI智能助手，可以自由对话。\n支持语音对话。\n支持图片输入。\n支持图片输出，画字开头的消息将按要求创作图片。\n支持tool、角色扮演和文字冒险等丰富的插件。\n输入{trigger_prefix}#help 查看详细指令。', 'use_linkai': False, 'linkai_api_key': '*****', 'linkai_app_code': ''}
+[INFO][2024-11-06 00:58:36][config.py:226] - [Config] User datas loaded.
+[INFO][2024-11-06 00:58:36][plugin_manager.py:50] - Loading plugins config...
+[INFO][2024-11-06 00:58:36][plugin_manager.py:88] - Scaning plugins ...
+[INFO][2024-11-06 00:58:36][plugin_manager.py:41] - Plugin Banwords_v1.0 registered, path=./plugins\banwords
+[INFO][2024-11-06 00:58:36][plugin_manager.py:41] - Plugin BDunit_v0.1 registered, path=./plugins\bdunit
+[INFO][2024-11-06 00:58:36][plugin_manager.py:41] - Plugin Dungeon_v1.0 registered, path=./plugins\dungeon
+[INFO][2024-11-06 00:58:36][plugin_manager.py:41] - Plugin Finish_v1.0 registered, path=./plugins\finish
+[INFO][2024-11-06 00:58:36][plugin_manager.py:41] - Plugin Godcmd_v1.0 registered, path=./plugins\godcmd
+[INFO][2024-11-06 00:58:36][plugin_manager.py:41] - Plugin Hello_v0.1 registered, path=./plugins\hello
+[INFO][2024-11-06 00:58:36][plugin_manager.py:41] - Plugin Keyword_v0.1 registered, path=./plugins\keyword
+[INFO][2024-11-06 00:58:36][plugin_manager.py:41] - Plugin linkai_v0.1.0 registered, path=./plugins\linkai
+[INFO][2024-11-06 00:58:36][plugin_manager.py:41] - Plugin Role_v1.0 registered, path=./plugins\role
+[WARNING][2024-11-06 00:58:36][plugin_manager.py:113] - Failed to import plugin tool: No module named 'chatgpt_tool_hub'
+[INFO][2024-11-06 00:58:36][godcmd.py:194] - [Godcmd] 因未设置口令，本次的临时口令为8435。
+[INFO][2024-11-06 00:58:36][godcmd.py:210] - [Godcmd] inited
+[INFO][2024-11-06 00:58:36][keyword.py:40] - [keyword] {}
+[INFO][2024-11-06 00:58:36][keyword.py:42] - [keyword] inited.
+[INFO][2024-11-06 00:58:36][linkai.py:35] - [LinkAI] inited, config={'group_app_map': {'测试群名1': 'default', '测试群名2': 'Kv2fXJcH'}, 'midjourney': {'enabled': False, 'auto_translate': True, 'img_proxy': True, 'max_tasks': 3, 'max_tasks_per_user': 1, 'use_image_create_prefix': True}, 'summary': {'enabled': False, 'group_enabled': True, 'max_file_size': 5000, 'type': ['FILE', 'SHARING']}}
+[INFO][2024-11-06 00:58:36][role.py:69] - [Role] inited
+[INFO][2024-11-06 00:58:36][dungeon.py:56] - [Dungeon] inited
+[INFO][2024-11-06 00:58:36][hello.py:40] - [Hello] inited
+[INFO][2024-11-06 00:58:36][finish.py:23] - [Finish] inited
+[INFO][2024-11-06 00:59:08][wechat_channel.py:131] - Wechat login success, user_id: @b7504eebd94287f0cea7a3e70bc8349f5c8a19dfdce2d3bbfa7c1d13ecf22e68, nickname: 璐璐不吃糖
+[WARNING][2024-11-06 00:59:19][role.py:103] - 不支持的bot: coze
+[INFO][2024-11-06 00:59:19][bridge.py:70] - create bot coze for chat
+[INFO][2024-11-06 00:59:19][bytedance_coze_bot.py:26] - [COZE] query=13279
+[WARNING][2024-11-06 00:59:19][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-11-06 00:59:20][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@小白菜白又白
+为您搜索到短剧信息如下：
+
+🎬 短剧名称：13279-被偷听心声后，豪门全家追着我宠（50集）
+📁 短剧链接：https://pan.quark.cn/s/9ac1877d2aa4
+
+--------------------
+
+下载夸克APP转存至网盘观看，未保存到网盘只能试看两分钟，保存之后按文件名排序即可顺序播放
+搜剧口令：搜xxx（尽量使用全称或者小范围关键词）
+全网短剧目录（可自助搜剧,机器人随时停，记得收藏目录）👇：
+https://kdocs.cn/l/cbEiPQiHmq36), receiver=@@8d55459b33ee1d4e64a47e43cb89cfdfc43fcaf9410922a0bfb7213d258b3463
+[WARNING][2024-11-06 00:59:38][role.py:103] - 不支持的bot: coze
+[INFO][2024-11-06 00:59:38][bytedance_coze_bot.py:26] - [COZE] query=千里共婵娟
+[WARNING][2024-11-06 00:59:38][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-11-06 00:59:39][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@小白菜白又白
+为您搜索到短剧信息如下：
+
+🎬 短剧名称：12252-千里共婵娟（64集）
+📁 短剧链接：https://pan.quark.cn/s/1d0fb98a84ee
+
+--------------------
+
+下载夸克APP转存至网盘观看，未保存到网盘只能试看两分钟，保存之后按文件名排序即可顺序播放
+搜剧口令：搜xxx（尽量使用全称或者小范围关键词）
+全网短剧目录（可自助搜剧,机器人随时停，记得收藏目录）👇：
+https://kdocs.cn/l/cbEiPQiHmq36), receiver=@@8d55459b33ee1d4e64a47e43cb89cfdfc43fcaf9410922a0bfb7213d258b3463
+[WARNING][2024-11-06 00:59:51][role.py:103] - 不支持的bot: coze
+[INFO][2024-11-06 00:59:51][bytedance_coze_bot.py:26] - [COZE] query=玄学大佬她惊艳全球
+[WARNING][2024-11-06 00:59:51][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-11-06 00:59:52][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@小白菜白又白
+未找到相关资源！
+可更换关键词模糊搜索如：m我在八零年代当后妈可以发（搜后妈/搜八零）
+如：爱在黎明前降落可以发（搜黎明）
+
+短剧自助查询👇：
+https://www.kdocs.cn/etapps/query/q/4HPeGssL
+（可以输入编号也可以输入关键词）
+全网短剧目录（可自助搜剧,机器人随时停，记得收藏目录）👇：
+https://kdocs.cn/l/cbEiPQiHmq36), receiver=@@8d55459b33ee1d4e64a47e43cb89cfdfc43fcaf9410922a0bfb7213d258b3463
+[WARNING][2024-11-06 01:00:10][role.py:103] - 不支持的bot: coze
+[INFO][2024-11-06 01:00:10][bytedance_coze_bot.py:26] - [COZE] query=玄学大佬她直播惊艳全球
+[WARNING][2024-11-06 01:00:10][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-11-06 01:00:11][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@小白菜白又白
+未找到相关资源！
+可更换关键词模糊搜索如：m我在八零年代当后妈可以发（搜后妈/搜八零）
+如：爱在黎明前降落可以发（搜黎明）
+
+短剧自助查询👇：
+https://www.kdocs.cn/etapps/query/q/4HPeGssL
+（可以输入编号也可以输入关键词）
+全网短剧目录（可自助搜剧,机器人随时停，记得收藏目录）👇：
+https://kdocs.cn/l/cbEiPQiHmq36), receiver=@@8d55459b33ee1d4e64a47e43cb89cfdfc43fcaf9410922a0bfb7213d258b3463
+[WARNING][2024-11-06 01:00:52][role.py:103] - 不支持的bot: coze
+[INFO][2024-11-06 01:00:52][bytedance_coze_bot.py:26] - [COZE] query=玄学大佬她直播惊艳全球
+[WARNING][2024-11-06 01:00:52][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-11-06 01:00:53][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@小白菜白又白
+为您搜索到短剧信息如下：
+
+🎬 短剧名称：13111-玄学大佬她直播惊艳全球（47集）马铭婕
+📁 短剧链接：https://pan.quark.cn/s/8313e05fc3a8
+
+--------------------
+
+下载夸克APP转存至网盘观看，未保存到网盘只能试看两分钟，保存之后按文件名排序即可顺序播放
+搜剧口令：搜xxx（尽量使用全称或者小范围关键词）
+全网短剧目录（可自助搜剧,机器人随时停，记得收藏目录）👇：
+https://kdocs.cn/l/cbEiPQiHmq36), receiver=@@8d55459b33ee1d4e64a47e43cb89cfdfc43fcaf9410922a0bfb7213d258b3463
+[WARNING][2024-11-06 01:02:36][role.py:103] - 不支持的bot: coze
+[INFO][2024-11-06 01:02:36][bytedance_coze_bot.py:26] - [COZE] query=穿成魔尊
+[WARNING][2024-11-06 01:02:36][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-11-06 01:02:37][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@小白菜白又白
+未找到相关资源！
+可更换关键词模糊搜索如：m我在八零年代当后妈可以发（搜后妈/搜八零）
+如：爱在黎明前降落可以发（搜黎明）
+
+短剧自助查询👇：
+https://www.kdocs.cn/etapps/query/q/4HPeGssL
+（可以输入编号也可以输入关键词）
+全网短剧目录（可自助搜剧,机器人随时停，记得收藏目录）👇：
+https://kdocs.cn/l/cbEiPQiHmq36), receiver=@@8d55459b33ee1d4e64a47e43cb89cfdfc43fcaf9410922a0bfb7213d258b3463
+[WARNING][2024-11-06 01:02:58][role.py:103] - 不支持的bot: coze
+[INFO][2024-11-06 01:02:58][bytedance_coze_bot.py:26] - [COZE] query=穿成魔尊后我一心想死
+[WARNING][2024-11-06 01:02:58][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-11-06 01:02:59][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@小白菜白又白
+为您搜索到短剧信息如下：
+
+🎬 短剧名称：13460-穿成魔尊后我一心求死（66集）仙侠剧
+📁 短剧链接：https://pan.quark.cn/s/500eb083a52e
+
+--------------------
+
+下载夸克APP转存至网盘观看，未保存到网盘只能试看两分钟，保存之后按文件名排序即可顺序播放
+搜剧口令：搜xxx（尽量使用全称或者小范围关键词）
+全网短剧目录（可自助搜剧,机器人随时停，记得收藏目录）👇：
+https://kdocs.cn/l/cbEiPQiHmq36), receiver=@@8d55459b33ee1d4e64a47e43cb89cfdfc43fcaf9410922a0bfb7213d258b3463
+[WARNING][2024-11-06 01:03:11][role.py:103] - 不支持的bot: coze
+[INFO][2024-11-06 01:03:11][bytedance_coze_bot.py:26] - [COZE] query=剧（玄学大佬她直播惊艳全球）
+[WARNING][2024-11-06 01:03:11][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-11-06 01:03:12][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@小白菜白又白
+为您搜索到短剧信息如下：
+
+🎬 短剧名称：13111-玄学大佬她直播惊艳全球（47集）马铭婕
+📁 短剧链接：https://pan.quark.cn/s/8313e05fc3a8
+
+--------------------
+
+下载夸克APP转存至网盘观看，未保存到网盘只能试看两分钟，保存之后按文件名排序即可顺序播放
+搜剧口令：搜xxx（尽量使用全称或者小范围关键词）
+全网短剧目录（可自助搜剧,机器人随时停，记得收藏目录）👇：
+https://kdocs.cn/l/cbEiPQiHmq36), receiver=@@8d55459b33ee1d4e64a47e43cb89cfdfc43fcaf9410922a0bfb7213d258b3463
+[WARNING][2024-11-06 01:03:28][role.py:103] - 不支持的bot: coze
+[INFO][2024-11-06 01:03:28][bytedance_coze_bot.py:26] - [COZE] query=天帝奶爸
+[WARNING][2024-11-06 01:03:28][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-11-06 01:03:29][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@小白菜白又白
+为您搜索到短剧信息如下：
+
+🎬 短剧名称：13686-天帝奶爸长生万古，千岁萌娃在线寻妈（52集）杨洁
+📁 短剧链接：https://pan.quark.cn/s/b2c814a8e810
+
+🎬 短剧名称：0095-超级战神奶爸
+📁 短剧链接：https://pan.quark.cn/s/0161bf206c9c
+
+🎬 短剧名称：6514-盖世龙爸$龙皇奶爸（90集）
+📁 短剧链接：https://pan.quark.cn/s/cc80cfc80f1f
+
+🎬 短剧名称：1964-战神奶爸纵横都市又名：狂龙奶爸（62集）
+📁 短剧链接：https://pan.quark.cn/s/493dd2c6bfca
+
+--------------------
+
+下载夸克APP转存至网盘观看，未保存到网盘只能试看两分钟，保存之后按文件名排序即可顺序播放
+搜剧口令：搜xxx（尽量使用全称或者小范围关键词）
+全网短剧目录（可自助搜剧,机器人随时停，记得收藏目录）👇：
+https://kdocs.cn/l/cbEiPQiHmq36), receiver=@@8d55459b33ee1d4e64a47e43cb89cfdfc43fcaf9410922a0bfb7213d258b3463
+[WARNING][2024-11-06 01:03:46][role.py:103] - 不支持的bot: coze
+[INFO][2024-11-06 01:03:46][bytedance_coze_bot.py:26] - [COZE] query=一剑封仙
+[WARNING][2024-11-06 01:03:46][chat_gpt_session.py:86] - num_tokens_from_messages() is not implemented for model coze. Returning num tokens assuming gpt-3.5-turbo.
+[INFO][2024-11-06 01:03:47][wechat_channel.py:214] - [WX] sendMsg=Reply(type=TEXT, content=@小白菜白又白
+为您搜索到短剧信息如下：
+
+🎬 短剧名称：9952-一剑封仙(91集）仙侠剧
+📁 短剧链接：https://pan.quark.cn/s/0d4ee4c8c8f7
+
+--------------------
+
+下载夸克APP转存至网盘观看，未保存到网盘只能试看两分钟，保存之后按文件名排序即可顺序播放
+搜剧口令：搜xxx（尽量使用全称或者小范围关键词）
+全网短剧目录（可自助搜剧,机器人随时停，记得收藏目录）👇：
+https://kdocs.cn/l/cbEiPQiHmq36), receiver=@@8d55459b33ee1d4e64a47e43cb89cfdfc43fcaf9410922a0bfb7213d258b3463
+[INFO][2024-11-06 01:04:14][app.py:19] - signal 2 received, exiting...
+[INFO][2024-11-06 01:04:14][config.py:237] - [Config] User datas saved.
+[INFO][2024-11-06 01:04:19][app.py:19] - signal 2 received, exiting...
+[INFO][2024-11-06 01:04:19][config.py:237] - [Config] User datas saved.
